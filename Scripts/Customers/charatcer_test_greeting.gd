@@ -18,11 +18,15 @@ const kitsune_neutral = preload("res://Assets/Customers/Kitsune/kitsune_neutral.
 
 const customer_sprites: Array = [customer_neutral, kitsune_neutral]
 
+var current_customer = null
+
 func _ready() -> void:
 	_spawn_customer()
 	food_still_needed = Global.order
 	
 	sprite_2d.texture = customer_sprites.pick_random()
+	#current_customer = sprite_2d.texture
+	#print("the current customer is ", current_customer)
 
 
 
@@ -34,7 +38,7 @@ func _spawn_customer() -> void:
 		print("Spawned customer")
 		for i in range(order_range):
 			Global.order.append(Global.completed_recipes.pick_random())
-			print("Order is:", Global.order)
+			#print("Order is:", Global.order)
 		
 		await _in_tween()
 		await _inital_timeline()
@@ -84,16 +88,16 @@ func _on_customer_hitbox_entered(body: RigidBody2D) -> void:
 				Global.order.sort()
 				body.queue_free()
 				food_still_needed.erase(body.get_recipe_name())
-				print(food_recieved)
+				print("food_recieved: ", food_recieved)
 
-				if food_recieved == Global.order:
-					Dialogic.start("order_right")
-					await Dialogic.timeline_ended
-					_out_tween()
+			if food_recieved == Global.order:
+				Dialogic.start("order_right")
+				await Dialogic.timeline_ended
+				_out_tween()
 
 			elif body.get_recipe_name() not in Global.order:
 				food_recieved.pop_back()
-				print(food_recieved, Global.order)
+				print("food_recieved: ", food_recieved, " Global.order: ", Global.order)
 				Dialogic.start("order_wrong")
 
 
