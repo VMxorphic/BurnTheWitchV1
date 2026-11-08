@@ -1,1 +1,1 @@
-Characters/character_test: I still need a {" & a ".join(Global.order)}
+Characters/character_test: I still need a {" & a ".join(Global.food_still_needed)}

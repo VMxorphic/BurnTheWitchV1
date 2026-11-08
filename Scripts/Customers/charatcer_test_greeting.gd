@@ -3,7 +3,6 @@ extends Node2D
 var in_tween: Tween
 var food_recieved: Array=[]
 var order_range = randi_range(1,2)
-var food_still_needed: Array = []
 
 @onready var sprite_2d: Sprite2D = %Sprite2D
 @onready var collision_shape_2d: CollisionShape2D = %CollisionShape2D
@@ -22,8 +21,9 @@ var current_customer = null
 
 func _ready() -> void:
 	_spawn_customer()
-	food_still_needed = Global.order
-	
+	Global.food_still_needed.append_array(Global.order)
+	#print("food_still_needed: ", Global.food_still_needed)
+
 	sprite_2d.texture = customer_sprites.pick_random()
 	#current_customer = sprite_2d.texture
 	#print("the current customer is ", current_customer)
@@ -38,7 +38,7 @@ func _spawn_customer() -> void:
 		print("Spawned customer")
 		for i in range(order_range):
 			Global.order.append(Global.completed_recipes.pick_random())
-			#print("Order is:", Global.order)
+			print("Order is:", Global.order)
 		
 		await _in_tween()
 		await _inital_timeline()
@@ -82,12 +82,12 @@ func _on_customer_hitbox_entered(body: RigidBody2D) -> void:
 	
 	if body.has_method("get_recipe_name"):
 		if body.get_recipe_name() in Global.completed_recipes:
-			if body.get_recipe_name() in food_still_needed:
+			if body.get_recipe_name() in Global.food_still_needed:
 				food_recieved.append(str(body.get_recipe_name()))
 				food_recieved.sort()
 				Global.order.sort()
 				body.queue_free()
-				food_still_needed.erase(body.get_recipe_name())
+				Global.food_still_needed.erase(body.get_recipe_name())
 				print("food_recieved: ", food_recieved)
 
 			if food_recieved == Global.order:
@@ -96,7 +96,6 @@ func _on_customer_hitbox_entered(body: RigidBody2D) -> void:
 				_out_tween()
 
 			elif body.get_recipe_name() not in Global.order:
-				food_recieved.pop_back()
 				print("food_recieved: ", food_recieved, " Global.order: ", Global.order)
 				Dialogic.start("order_wrong")
 

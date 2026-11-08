@@ -44,3 +44,5 @@ var line_spot_1_occupied = false
 
 #Charatcer order
 var order: Array=[]
+#Keeps track of what food the customer still needs
+var food_still_needed: Array = []
