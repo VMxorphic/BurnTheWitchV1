@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://b5h8xqh5ax7tx"]
 
 [ext_resource type="Script" uid="uid://b0w3gadjmty3v" path="res://Scripts/UIs/front_counter.gd" id="1_yagsu"]
-[ext_resource type="Texture2D" uid="uid://dd5anq0q305xv" path="res://Assets/Scenes/Front counter/counter.png" id="2_rfn2y"]
-[ext_resource type="Texture2D" uid="uid://4vatm80bjml" path="res://Assets/Scenes/Front counter/cashRegister.png" id="3_41tiw"]
+[ext_resource type="Texture2D" uid="uid://kocgqp5ogebc" path="res://Assets/Scenes/front_counter.png" id="2_amrkp"]
 [ext_resource type="PackedScene" uid="uid://41bcqtsb28kt" path="res://Scenes/UIs/pause_menu.tscn" id="3_siu5d"]
+[ext_resource type="PackedScene" uid="uid://bd47wnhfv6ibu" path="res://Scenes/Completed Recipes/strawberry_milkshake.tscn" id="4_amrkp"]
 [ext_resource type="PackedScene" uid="uid://cx0cn502uvolg" path="res://Scenes/Customers/customer_base.tscn" id="4_f001j"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rfn2y"]
@@ -15,18 +15,9 @@ size = Vector2(383.0482, 0.20006227)
 [node name="front_counter" type="Node2D" unique_id=1019976497]
 script = ExtResource("1_yagsu")
 
-[node name="CustomerBase" parent="." unique_id=1801528613 instance=ExtResource("4_f001j")]
-
-[node name="Counter sprite" type="Sprite2D" parent="." unique_id=989892647]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=294164837]
 position = Vector2(576, 320)
-texture = ExtResource("2_rfn2y")
-region_rect = Rect2(223.67163, 324.5677, 408.67175, 247.8454)
-
-[node name="Cash register" type="Sprite2D" parent="." unique_id=294164837]
-position = Vector2(264, 416)
-texture = ExtResource("3_41tiw")
-region_enabled = true
-region_rect = Rect2(223.67163, 324.5677, 408.67175, 247.8454)
+texture = ExtResource("2_amrkp")
 
 [node name="Counter" type="StaticBody2D" parent="." unique_id=850165918]
 position = Vector2(0, 216)
@@ -43,6 +34,8 @@ position = Vector2(136, 317.91858)
 scale = Vector2(0.5088435, 59.16744)
 shape = SubResource("RectangleShape2D_sdo8n")
 
+[node name="CustomerBase" parent="." unique_id=1801528613 instance=ExtResource("4_f001j")]
+
 [node name="ToKitchenButton" type="Button" parent="." unique_id=372756350]
 offset_left = 16.0
 offset_top = 568.0
@@ -51,5 +44,8 @@ offset_bottom = 624.0
 text = "Kitchen"
 
 [node name="PauseMenu" parent="." unique_id=1733997507 instance=ExtResource("3_siu5d")]
+
+[node name="Strawberry Milkshake" parent="." unique_id=1858936123 instance=ExtResource("4_amrkp")]
+position = Vector2(136, 352)
 
 [connection signal="pressed" from="ToKitchenButton" to="." method="_on_kitchen_button_pressed"]
