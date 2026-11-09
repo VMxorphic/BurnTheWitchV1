@@ -6,7 +6,7 @@ extends StaticBody2D
 # const egg_fridge=perload(")
 
 func _on_button_pressed() -> void:
-	print("button")
+	spawn_egg()
 	
 	
 
@@ -39,4 +39,9 @@ func spawn_milk()->void:
 func spawn_eye()-> void:
 	const eye_fridge=preload("res://Scenes/Foods/eye_ingredient.tscn")
 	var instance= eye_fridge.instantiate()
+	add_child(instance)
+	
+func spawn_egg()-> void:
+	const egg_fridge=preload("res://Scenes/Foods/egg_ingredient.tscn")
+	var instance= egg_fridge.instantiate()
 	add_child(instance)
