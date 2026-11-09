@@ -1,9 +1,9 @@
-res://Scenes/scene_manager.tscn
+res://Scenes/front_counter.tscn
 res://Dialogic/Styles/text_bubble_style.tres
+res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Textbubble/speech_bubble.gdshader
 res://Scenes/UIs/day_and_night_panel.gd
-res://Scenes/game.tscn
-res://Scenes/UIs/recipes_menu.tscn
 res://Scripts/Cookware/fridge.gd
+res://Scripts/UIs/day_night_cycle_manager.gd
+res://Scripts/UIs/saving_system.gd
 res://Scenes/Foods/egg_ingredient.tscn
-res://Scripts/Foods/egg_ingredient.gd
-res://Scenes/Cookware/fridge.tscn
+res://Scripts/Customers/charatcer_test_greeting.gd
