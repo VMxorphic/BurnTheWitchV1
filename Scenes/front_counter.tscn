@@ -15,6 +15,8 @@ size = Vector2(383.0482, 0.20006227)
 [node name="front_counter" type="Node2D" unique_id=1019976497]
 script = ExtResource("1_yagsu")
 
+[node name="CustomerBase" parent="." unique_id=1801528613 instance=ExtResource("4_f001j")]
+
 [node name="counter" type="Sprite2D" parent="." unique_id=1185255473]
 position = Vector2(576, 323)
 texture = ExtResource("2_rfn2y")
@@ -37,8 +39,6 @@ position = Vector2(232, 144)
 position = Vector2(136, 317.91858)
 scale = Vector2(0.5088435, 59.16744)
 shape = SubResource("RectangleShape2D_sdo8n")
-
-[node name="CustomerBase" parent="." unique_id=1801528613 instance=ExtResource("4_f001j")]
 
 [node name="ToKitchenButton" type="Button" parent="." unique_id=372756350]
 offset_left = 16.0
