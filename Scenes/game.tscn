@@ -3,7 +3,6 @@
 [ext_resource type="Script" uid="uid://bbv1dpmjgcwro" path="res://Scripts/UIs/gamecode.gd" id="1_rku1e"]
 [ext_resource type="Texture2D" uid="uid://b2wb0vgajf8xh" path="res://Assets/Cookware/cutting_board.png" id="2_85qyi"]
 [ext_resource type="PackedScene" uid="uid://bfbwvdvjduf7k" path="res://Scenes/Foods/apple_ingredient.tscn" id="2_lx5s4"]
-[ext_resource type="PackedScene" uid="uid://1r8mgspmcv2t" path="res://Scenes/Foods/milk_ingredient.tscn" id="2_vxq55"]
 [ext_resource type="PackedScene" uid="uid://l8vuyx8y6t18" path="res://Scenes/Foods/carrot_ingredient.tscn" id="5_pc4w8"]
 [ext_resource type="PackedScene" uid="uid://41bcqtsb28kt" path="res://Scenes/UIs/pause_menu.tscn" id="5_wowpa"]
 [ext_resource type="PackedScene" uid="uid://dwacipi1646lq" path="res://Scenes/Cookware/Pot.tscn" id="6_oqhix"]
@@ -12,10 +11,9 @@
 [ext_resource type="PackedScene" uid="uid://k0aj3bsu7o33" path="res://Scenes/Foods/strawberry_ingredient.tscn" id="10_1phco"]
 [ext_resource type="PackedScene" uid="uid://cyqoete64hk4p" path="res://Scenes/Foods/tofu_ingredient.tscn" id="10_ldgsr"]
 [ext_resource type="PackedScene" uid="uid://bbkp0jvrw605q" path="res://Scenes/Cookware/window.tscn" id="11_1phco"]
-[ext_resource type="Texture2D" uid="uid://clupeeumdujh3" path="res://Assets/UIs/Icons/BookClosed.png" id="12_rfjv2"]
+[ext_resource type="Texture2D" uid="uid://vofh8ufo6dhq" path="res://Assets/UIs/Icons/BookClosed.png" id="12_rfjv2"]
 [ext_resource type="PackedScene" uid="uid://l5es74krredl" path="res://Scenes/Foods/bluebery_ingredient.tscn" id="14_1phco"]
 [ext_resource type="PackedScene" uid="uid://bhpxfq1fynrua" path="res://Scenes/Foods/dog_treat_ingredient.tscn" id="15_nb51f"]
-[ext_resource type="PackedScene" uid="uid://8pmfnrfk7r68" path="res://Scenes/Foods/fish_ingredient.tscn" id="16_nnt18"]
 [ext_resource type="PackedScene" uid="uid://b6cma1n8sqrma" path="res://Scenes/UIs/day_and_night_panel.tscn" id="18_85qyi"]
 [ext_resource type="PackedScene" uid="uid://dx75xyf8o71ua" path="res://Scenes/Cookware/fridge.tscn" id="20_7nbq1"]
 
@@ -49,9 +47,6 @@ scale = Vector2(0.35853642, 0.35853642)
 [node name="AppleIngredient" parent="." unique_id=1191235726 instance=ExtResource("2_lx5s4")]
 position = Vector2(232, 120)
 
-[node name="MilkIngredient" parent="." unique_id=808890814 instance=ExtResource("2_vxq55")]
-position = Vector2(808, 296)
-
 [node name="CarrotIngredient" parent="." unique_id=852776623 instance=ExtResource("5_pc4w8")]
 position = Vector2(384, 216)
 
@@ -71,13 +66,6 @@ mass = 5.0
 
 [node name="DogTreatIngredient" parent="." unique_id=1650936889 instance=ExtResource("15_nb51f")]
 position = Vector2(272, 336)
-
-[node name="FishIngredient" parent="." unique_id=1029412498 instance=ExtResource("16_nnt18")]
-position = Vector2(304, 104)
-
-[node name="Fridge" parent="." unique_id=2137048956 instance=ExtResource("20_7nbq1")]
-position = Vector2(1040, 504)
-scale = Vector2(1.2199332, 1.2199332)
 
 [node name="PopUpRecipe" parent="." unique_id=1445618864 instance=ExtResource("7_5hnu0")]
 anchors_preset = 0
@@ -111,6 +99,10 @@ offset_bottom = 624.0
 text = "Counter"
 
 [node name="DayAndNightPanel" parent="." unique_id=164352154 instance=ExtResource("18_85qyi")]
+
+[node name="Fridge" parent="." unique_id=2137048956 instance=ExtResource("20_7nbq1")]
+position = Vector2(1032, 504)
+scale = Vector2(1.3345473, 1.3345473)
 
 [connection signal="pressed" from="RecipeMenuButton" to="." method="_on_recipe_menu_button_pressed"]
 [connection signal="pressed" from="ToCounterButton" to="." method="_on_to_counter_button_pressed"]

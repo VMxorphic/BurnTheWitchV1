@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://cm33sp5r4lhpg"]
+
+[ext_resource type="Script" uid="uid://dpuvukwn4cp2" path="res://Scripts/Foods/egg_ingredient.gd" id="1_lvuau"]
+[ext_resource type="Texture2D" uid="uid://bmwsdlbvdibse" path="res://Assets/Foods/egg.png" id="2_yhm8d"]
+
+[node name="MilkIngredient" type="RigidBody2D" unique_id=1988172377 groups=["Ingredients"]]
+gravity_scale = 5.505
+continuous_cd = 1
+contact_monitor = true
+max_contacts_reported = 4
+script = ExtResource("1_lvuau")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1357457887]
+scale = Vector2(0.026297748, 0.026297748)
+texture = ExtResource("2_yhm8d")
+region_rect = Rect2(1465.1, 679.6, 189.2, 323.4)
+
+[node name="Button" type="Button" parent="." unique_id=351559911]
+modulate = Color(1, 1, 1, 0)
+offset_left = -10.0
+offset_top = -14.0
+offset_right = -2.0
+offset_bottom = -1.0
+scale = Vector2(2.2289171, 2.2990305)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1875631793]
+scale = Vector2(1.8343092, -2.257465)
+polygon = PackedVector2Array(-0.8849976, 8.916929, -5.8409843, 6.328143, -9.203976, 0.14382143, -8.849977, -4.889929, -4.778987, -7.9101787, 3.008992, -8.054, 6.1949835, -5.177572, 7.079981, 0.71910715, 3.71699, 6.4719644)
+
+[connection signal="button_down" from="Button" to="." method="_on_button_button_down"]
+[connection signal="button_up" from="Button" to="." method="_on_button_button_up"]
