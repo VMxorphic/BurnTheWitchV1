@@ -1,10 +1,15 @@
 [gd_scene format=3 uid="uid://b5h8xqh5ax7tx"]
 
 [ext_resource type="Script" uid="uid://b0w3gadjmty3v" path="res://Scripts/UIs/front_counter.gd" id="1_yagsu"]
+<<<<<<< Updated upstream
 [ext_resource type="Texture2D" uid="uid://dd5anq0q305xv" path="res://Assets/Scenes/Front counter/counter.png" id="2_rfn2y"]
 [ext_resource type="Texture2D" uid="uid://4vatm80bjml" path="res://Assets/Scenes/Front counter/cashRegister.png" id="3_41tiw"]
+=======
+[ext_resource type="Texture2D" uid="uid://4vatm80bjml" path="res://Assets/Scenes/Front counter/cashRegister.png" id="2_amrkp"]
+>>>>>>> Stashed changes
 [ext_resource type="PackedScene" uid="uid://41bcqtsb28kt" path="res://Scenes/UIs/pause_menu.tscn" id="3_siu5d"]
 [ext_resource type="PackedScene" uid="uid://cx0cn502uvolg" path="res://Scenes/Customers/customer_base.tscn" id="4_f001j"]
+
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rfn2y"]
 size = Vector2(1153, 73)

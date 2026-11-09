@@ -1,5 +1,9 @@
 78098b89c88a74ebe8c20117b8754620
+<<<<<<< Updated upstream
 ::res://::1794239653
+=======
+::res://::1794238360
+>>>>>>> Stashed changes
 default_bus_layout.tres::AudioBusLayout::3513081651350032911::1792753413::0::1::::<><><>0<>0<><>::
 export_presets.cfg::TextFile::-1::1793973494::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::7854880291307680439::1792753413::1794229373::1::::<><><>0<>0<>66e1f2e2bf6106fd065c1cb7e25023c6<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
@@ -719,10 +723,17 @@ Receipt.png::CompressedTexture2D::5493951716700759640::1792753411::1793979778::1
 Timer.png::CompressedTexture2D::2200144102864079287::1792753411::1793979777::1::::<><><>0<>0<>a88b8c12d48a3961b182813bc1c7d8c3<>res://.godot/imported/Timer.png-1a1184496a4527797d7fe9e0ee670181.ctex::
 ::res://Dialogic/::1794073544
 ::res://Dialogic/Characters/::1794073544
+<<<<<<< Updated upstream
 cerberus.dch::Resource/DialogicCharacter::6395764007447125563::1794073544::0::1::::<><>uid://bbea0efx0ybu7<>0<>0<><>::
 character_test.dch::Resource/DialogicCharacter::8264669879215866946::1792753411::0::1::::<><>uid://bbea0efx0ybu7<>0<>0<><>::res://Assets/Customers/costumer_angry.png<>res://Assets/Customers/costumer_frustrated.png<>res://Assets/Customers/costumer_happy.png<>res://Assets/Customers/costumer_neutral.png
 kitsune.dch::Resource/DialogicCharacter::2872201538103294529::1794073544::0::1::::<><>uid://bbea0efx0ybu7<>0<>0<><>::res://Assets/Customers/Kitsune/kitsune_neutral.png
 vampire.dch::Resource/DialogicCharacter::5180152197577639064::1794073544::0::1::::<><>uid://bbea0efx0ybu7<>0<>0<><>::
+=======
+cerberus.dch::Resource/DialogicCharacter::6395764007447125563::1794073544::0::1::::<><><>0<>0<><>::
+character_test.dch::Resource/DialogicCharacter::8264669879215866946::1792753411::0::1::::<><><>0<>0<><>::res://Assets/Customers/costumer_angry.png<>res://Assets/Customers/costumer_frustrated.png<>res://Assets/Customers/costumer_happy.png<>res://Assets/Customers/costumer_neutral.png
+kitsune.dch::Resource/DialogicCharacter::2872201538103294529::1794073544::0::1::::<><><>0<>0<><>::res://Assets/Customers/Kitsune/kitsune_neutral.png
+vampire.dch::Resource/DialogicCharacter::5180152197577639064::1794073544::0::1::::<><><>0<>0<><>::
+>>>>>>> Stashed changes
 ::res://Dialogic/Styles/::1794237939
 text_bubble_style.tres::Resource/DialogicStyle::6707818863201233295::1794237939::0::1::::<><><>0<>0<><>::uid://syki6k0e6aac::::res://addons/dialogic/Modules/DefaultLayoutParts/Base_TextBubble/text_bubble_base.tscn<>uid://bwg6yncmh2cml::::res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://dv08k6ljua6fm::::res://addons/dialogic/Resources/dialogic_style.gd<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://bijj630sd3lsw::::res://Dialogic/TextbubbleLayer/custom_textbubble_layer.tscn
 ::res://Dialogic/TextbubbleLayer/::1792753411
@@ -776,8 +787,13 @@ herbs_ingredient.tscn::PackedScene::4120474782691763914::1792753411::0::1::::<><
 milk_ingredient.tscn::PackedScene::1862029790340261805::1792753411::0::1::::<><><>0<>0<><>::uid://m20f4gix2v3t::::res://Scripts/Foods/milk_ingredient.gd<>uid://bt1mmwnpgdm8t::::res://Assets/Foods/all_food_1.png
 strawberry_ingredient.tscn::PackedScene::753515425421409996::1792753411::0::1::::<><><>0<>0<><>::uid://cf8sx38tk5p60::::res://Scripts/Foods/strawberry_ingredient.gd<>uid://bt1mmwnpgdm8t::::res://Assets/Foods/all_food_1.png
 tofu_ingredient.tscn::PackedScene::6491261845408695801::1792753411::0::1::::<><><>0<>0<><>::uid://bdk7dmply8x7s::::res://Scripts/Foods/tofu_ingredient.gd<>uid://djyke72wrrxap::::res://Assets/Foods/Tofu.png
+<<<<<<< Updated upstream
 ::res://Scenes/UIs/::1794239653
 day_and_night_panel.gd::GDScript::2798682183930770428::1794239653::0::1::::<>Control<><>0<>0<><>::
+=======
+::res://Scenes/UIs/::1794237939
+day_and_night_panel.gd::GDScript::2798682183930770428::1794076178::0::1::::<>Control<><>0<>0<><>::
+>>>>>>> Stashed changes
 day_and_night_panel.tscn::PackedScene::4567133583107055196::1794237939::0::1::::<><><>0<>0<><>::uid://bf4x5e87cllxk::::res://Scenes/UIs/day_and_night_panel.gd
 main_menu.tscn::PackedScene::8886557721937683165::1792753411::0::1::::<><><>0<>0<><>::uid://2uvkrwv3fgc8::::res://Scripts/UIs/main_menu.gd<>uid://cxmfqnnfwwh3s::::res://Scripts/UIs/audio_control.gd<>res://Scripts/UIs/sfx_control.gd<>uid://fanaksp2xytd::::res://Scripts/UIs/full_screen_control.gd
 market_menu.tscn::PackedScene::905803375370656636::1792753411::0::1::::<><><>0<>0<><>::uid://d0ajpqvincfb5::::res://Scripts/UIs/market_menu.gd<>uid://dj57y3116o2mt::::res://icon.svg
