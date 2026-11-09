@@ -29,18 +29,22 @@ SceneTransition="*uid://dkqqcrjykvvh7"
 EventBus="*uid://b1ludxi0oxbo0"
 SceneManager="*uid://bbo5snr5d0hla"
 MoneyAmount="*uid://3qeqw4qs2ekt"
+DayNightCycleManager="*uid://b267korhpbnhi"
+SavingSystem="*uid://dyhir8pf4dtnk"
 
 [dialogic]
 
 directories/dch_directory={
 "Characters/character_test": "res://Dialogic/Characters/character_test.dch",
-"kitsune": "res://Dialogic/Characters/kitsune.dch"
+"cerberus": "res://Dialogic/Characters/cerberus.dch",
+"kitsune": "res://Dialogic/Characters/kitsune.dch",
+"vampire": "res://Dialogic/Characters/vampire.dch"
 }
 directories/dtl_directory={
-"customer_order": "res://Dialogic/Timelines/customer_order.dtl",
-"order_right": "res://Dialogic/Timelines/order_right.dtl",
-"order_wrong": "res://Dialogic/Timelines/order_wrong.dtl",
-"restate_order": "res://Dialogic/Timelines/restate_order.dtl"
+"customer_order": "res://Dialogic/Timelines/customer_base/customer_order.dtl",
+"order_right": "res://Dialogic/Timelines/customer_base/order_right.dtl",
+"order_wrong": "res://Dialogic/Timelines/customer_base/order_wrong.dtl",
+"restate_order": "res://Dialogic/Timelines/customer_base/restate_order.dtl"
 }
 layout/style_directory={
 "": "res://Dialogic/Styles/text_bubble_style.tres",

@@ -12,9 +12,21 @@ var order_range = randi_range(1,2)
 
 @onready var customer_base: Node2D = $"."
 
+const customer_neutral = preload("uid://dmvyjmohsm1qq")
+const kitsune_neutral = preload("res://Assets/Customers/Kitsune/kitsune_neutral.png")
+
+const customer_sprites: Array = [customer_neutral, kitsune_neutral]
+
+var current_customer = null
 
 func _ready() -> void:
 	_spawn_customer()
+	Global.food_still_needed.append_array(Global.order)
+	#print("food_still_needed: ", Global.food_still_needed)
+
+	sprite_2d.texture = customer_sprites.pick_random()
+	#current_customer = sprite_2d.texture
+	#print("the current customer is ", current_customer)
 
 
 
@@ -47,7 +59,7 @@ func _in_tween():
 		if in_tween: in_tween.kill() #if tween exists kill it
 		in_tween = create_tween().set_parallel(true)
 		in_tween.tween_property(sprite_2d, "position", line_spot_1.position, 1.0)
-		in_tween.tween_property(collision_shape_2d, "position", line_spot_1.position, 1.0)
+		#in_tween.tween_property(collision_shape_2d, "position", line_spot_1.position, 1.0)
 		await in_tween.finished
 		
 
@@ -56,7 +68,7 @@ func _out_tween():
 	if in_tween: in_tween.kill() #if tween exists kill it
 	in_tween = create_tween().set_parallel(true)
 	in_tween.tween_property(sprite_2d, "position", out_marker_2d.position, 1.2)
-	in_tween.tween_property(collision_shape_2d, "position", out_marker_2d.position, 1.2)
+	#in_tween.tween_property(collision_shape_2d, "position", out_marker_2d.position, 1.2)
 	
 	await in_tween.finished
 	
@@ -70,21 +82,21 @@ func _on_customer_hitbox_entered(body: RigidBody2D) -> void:
 	
 	if body.has_method("get_recipe_name"):
 		if body.get_recipe_name() in Global.completed_recipes:
-			if body.get_recipe_name() in Global.order:
+			if body.get_recipe_name() in Global.food_still_needed:
 				food_recieved.append(str(body.get_recipe_name()))
 				food_recieved.sort()
 				Global.order.sort()
-				print(food_recieved)
+				body.queue_free()
+				Global.food_still_needed.erase(body.get_recipe_name())
+				print("food_recieved: ", food_recieved)
 
-				if food_recieved == Global.order:
-					body.queue_free()
-					Dialogic.start("order_right")
-					await Dialogic.timeline_ended
-					_out_tween()
+			if food_recieved == Global.order:
+				Dialogic.start("order_right")
+				await Dialogic.timeline_ended
+				_out_tween()
 
 			elif body.get_recipe_name() not in Global.order:
-				food_recieved.pop_back()
-				print(food_recieved, Global.order)
+				print("food_recieved: ", food_recieved, " Global.order: ", Global.order)
 				Dialogic.start("order_wrong")
 
 
