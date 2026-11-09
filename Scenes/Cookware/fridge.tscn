@@ -16,8 +16,10 @@ texture = ExtResource("1_8wli0")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=128352268]
 position = Vector2(0, 8)
 shape = SubResource("RectangleShape2D_of5tc")
+disabled = true
 
 [node name="Button" type="Button" parent="." unique_id=1724324981]
+modulate = Color(1, 1, 1, 0)
 offset_left = -30.000004
 offset_top = -3.0
 offset_right = -22.000004
@@ -25,6 +27,7 @@ offset_bottom = 5.0
 scale = Vector2(4.9402094, 3.431128)
 
 [node name="Button2" type="Button" parent="." unique_id=375070689]
+modulate = Color(1, 1, 1, 0)
 offset_left = -38.000004
 offset_top = -50.999996
 offset_right = -30.000004
@@ -32,6 +35,7 @@ offset_bottom = -42.999996
 scale = Vector2(4.9402094, 3.431128)
 
 [node name="Button3" type="Button" parent="." unique_id=1524298455]
+modulate = Color(1, 1, 1, 0)
 offset_left = 10.000001
 offset_top = -51.0
 offset_right = 18.0
@@ -39,6 +43,7 @@ offset_bottom = -43.0
 scale = Vector2(4.9402094, 3.431128)
 
 [node name="Button4" type="Button" parent="." unique_id=1568347037]
+modulate = Color(1, 1, 1, 0)
 offset_left = -45.999996
 offset_top = 47.0
 offset_right = -37.999996

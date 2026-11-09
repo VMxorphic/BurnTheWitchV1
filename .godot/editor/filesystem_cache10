@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1793978776
+::res://::1794018589
 default_bus_layout.tres::AudioBusLayout::3513081651350032911::1792458119::0::1::::<><><>0<>0<><>::
 export_presets.cfg::TextFile::-1::1792768972::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::7854880291307680439::1792458119::1792458119::1::::<><><>0<>0<>3a6fe3c5df5f299ace086acce60469da<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
@@ -443,10 +443,10 @@ preview.png::CompressedTexture2D::1014464294202401190::1792458118::1792458134::1
 speaker-textbox-icon.svg::CompressedTexture2D::6572615020867580224::1792458118::1792458118::1::::<><><>0<>0<>ea39c0b849c7e83603feb1423c94bc29<>res://.godot/imported/speaker-textbox-icon.svg-e67964032c31cfdc4bf5a376d48a985e.ctex::
 speaker_portrait_textbox_layer.gd::GDScript::3158226406090215546::1792458118::0::1::::<>DialogicLayoutLayer<><>0<>1<><>::
 textbox_with_speaker_portrait.tscn::PackedScene::4136285383422450981::1792458118::0::1::::<><><>0<>0<><>::uid://d0ptqnbudhkyj::::res://addons/dialogic/Modules/Character/node_portrait_container.gd<>uid://bk84r61kckpxa::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/speaker_portrait_textbox_layer.gd<>uid://bak74s0kcr0ao::::res://addons/dialogic/Modules/Text/node_name_label.gd<>uid://drhfq6rmdeuri::::res://addons/dialogic/Modules/Text/node_dialog_text.gd<>uid://diexbgvrksk2k::::res://addons/dialogic/Resources/flex_vector.gd<>uid://dpv2dfiv5dhmr::::res://addons/dialogic/Modules/Text/node_type_sound.gd
-::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Textbubble/::1793911649
+::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Textbubble/::1794001836
 part_config.cfg::TextFile::-1::1792458118::0::1::::<><><>0<>0<><>::
 preview.png::CompressedTexture2D::4329221288252034539::1792458118::1792458134::1::::<><><>0<>0<>e8deb465f2e7a077f5e5d95a34517931<>res://.godot/imported/preview.png-136e526350ab989f1e1d2ba13d756aaa.ctex::
-speech_bubble.gdshader::Shader::6092876677169649742::1793911649::0::1::::<><><>0<>0<><>::
+speech_bubble.gdshader::Shader::6092876677169649742::1794001836::0::1::::<><><>0<>0<><>::
 text_bubble.gd::GDScript::3246012511594670952::1792458118::0::1::::<>Control<><>0<>0<><>::
 text_bubble.gdshader::Shader::4108745790483627497::1792458118::0::1::::<><><>0<>0<><>::
 text_bubble.tscn::PackedScene::7980779173428697354::1792458118::0::1::::<><><>0<>0<><>::uid://bminl7x3r40vc::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Textbubble/text_bubble.gd<>uid://byskpb7ypvuab::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Textbubble/text_bubble.gdshader<>uid://drhfq6rmdeuri::::res://addons/dialogic/Modules/Text/node_dialog_text.gd<>uid://dpv2dfiv5dhmr::::res://addons/dialogic/Modules/Text/node_type_sound.gd<>uid://bak74s0kcr0ao::::res://addons/dialogic/Modules/Text/node_name_label.gd
@@ -670,11 +670,13 @@ shelfpot.png::CompressedTexture2D::4072706466161180065::1792458116::1792458140::
 Spoon.png::CompressedTexture2D::8290935933956105545::1792458116::1792458116::1::::<><><>0<>0<>34466c615f71c102ac0e258268c92492<>res://.godot/imported/Spoon.png-1a4ed926efd52e39b22829b51f053db7.ctex::
 spoon_flour.png::CompressedTexture2D::5632200912044753592::1792458116::1792458116::1::::<><><>0<>0<>29b954d5ed638ee0677327d6f8430bd1<>res://.godot/imported/spoon_flour.png-c69be8a1ff38efcdd6ed42408232ec32.ctex::
 Window.png::CompressedTexture2D::6505064657901625636::1792458116::1792458137::1::::<><><>0<>0<>3e7122a46fa7ee77a72208f407b025cb<>res://.godot/imported/Window.png-d98b09782aa453a0addc6ed0aa341c45.ctex::
-::res://Assets/Customers/::1793911584
+::res://Assets/Customers/::1793980367
 costumer_angry.png::CompressedTexture2D::488333273961130352::1792458116::1792458116::1::::<><><>0<>0<>c33c7631a5ae372dc8fa839ff1a19795<>res://.godot/imported/costumer_angry.png-e341af625d7a29640be2f1025160e4b3.ctex::
 costumer_frustrated.png::CompressedTexture2D::1887482436967946376::1792458116::1792458116::1::::<><><>0<>0<>15a4d95649653b56c456915663c579d5<>res://.godot/imported/costumer_frustrated.png-422c174223188e7dcc86d170c32874a3.ctex::
 costumer_happy.png::CompressedTexture2D::199954755167584276::1792458116::1792458116::1::::<><><>0<>0<>2a46a6fd3ebe6808a8efbd4d91145444<>res://.godot/imported/costumer_happy.png-024df0bd31eb95ae07887945e36189aa.ctex::
 costumer_neutral.png::CompressedTexture2D::8046354039792554104::1792458116::1792458116::1::::<><><>0<>0<>3a5f0a792993bad7b747068a2c8c15b9<>res://.godot/imported/costumer_neutral.png-c2a2a6efb55eb8083bc0f146bd55fe0d.ctex::
+::res://Assets/Customers/Cerberus/::1793980999
+Cerberus.png::CompressedTexture2D::3750286643638834154::1793980995::1793980999::1::::<><><>0<>0<>d3a07c8bd273aaf5308864a3ff638ff2<>res://.godot/imported/Cerberus.png-83a2f198add6c7a8d04c764c68ee5093.ctex::
 ::res://Assets/Customers/Kitsune/::1793911643
 kitsune_neutral.png::CompressedTexture2D::780328281699963018::1793911584::1793911643::1::::<><><>0<>0<>3549108f9e7e7b81aec4357604f88918<>res://.godot/imported/kitsune_neutral.png-2bc6a09b90a14807ed1d484553c293d4.ctex::
 ::res://Assets/Foods/::1792454870
@@ -709,9 +711,9 @@ Timer.png::CompressedTexture2D::9071766748094591784::1792458116::1792458137::1::
 ::res://Dialogic/::1792454764
 ::res://Dialogic/Characters/::1793911584
 character_test.dch::Resource/DialogicCharacter::8264669879215866946::1792458116::0::1::::<><>uid://bbea0efx0ybu7<>0<>0<><>::res://Assets/Customers/costumer_angry.png<>res://Assets/Customers/costumer_frustrated.png<>res://Assets/Customers/costumer_happy.png<>res://Assets/Customers/costumer_neutral.png
-kitsune.dch::Resource/DialogicCharacter::2872201538103294529::1793911584::0::1::::<><><>0<>0<><>::
-::res://Dialogic/Styles/::1793911649
-text_bubble_style.tres::Resource/DialogicStyle::6707818863201233295::1793911649::0::1::::<><><>0<>0<><>::uid://syki6k0e6aac::::res://addons/dialogic/Modules/DefaultLayoutParts/Base_TextBubble/text_bubble_base.tscn<>uid://bwg6yncmh2cml::::res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://dv08k6ljua6fm::::res://addons/dialogic/Resources/dialogic_style.gd<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://bijj630sd3lsw::::res://Dialogic/TextbubbleLayer/custom_textbubble_layer.tscn
+kitsune.dch::Resource/DialogicCharacter::2872201538103294529::1793911584::0::1::::<><>uid://bbea0efx0ybu7<>0<>0<><>::
+::res://Dialogic/Styles/::1794001836
+text_bubble_style.tres::Resource/DialogicStyle::6707818863201233295::1794001836::0::1::::<><><>0<>0<><>::uid://syki6k0e6aac::::res://addons/dialogic/Modules/DefaultLayoutParts/Base_TextBubble/text_bubble_base.tscn<>uid://bwg6yncmh2cml::::res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://dv08k6ljua6fm::::res://addons/dialogic/Resources/dialogic_style.gd<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://bijj630sd3lsw::::res://Dialogic/TextbubbleLayer/custom_textbubble_layer.tscn
 ::res://Dialogic/TextbubbleLayer/::1792454765
 custom_textbubble_layer.tscn::PackedScene::2967114155226722998::1792458116::0::1::::<><><>0<>0<><>::uid://dcae6nsh8fgtp::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Textbubble/text_bubble_layer.gd
 text_bubble_layer.gd::GDScript::5543698787146404309::1792458116::0::1::::<>DialogicLayoutLayer<><>0<>1<><>::
@@ -720,9 +722,9 @@ customer_order.dtl::Resource/DialogicTimeline::6895395270653152133::1793911584::
 order_right.dtl::Resource/DialogicTimeline::1136591323177298674::1792458116::0::1::::<><>uid://j7ym07anlusi<>0<>0<><>::uid://dp0p51w6dqcqk
 order_wrong.dtl::Resource/DialogicTimeline::6578202067829496896::1792458116::0::1::::<><>uid://j7ym07anlusi<>0<>0<><>::uid://dp0p51w6dqcqk
 restate_order.dtl::Resource/DialogicTimeline::4586084171128987106::1792679035::0::1::::<><>uid://j7ym07anlusi<>0<>0<><>::uid://dp0p51w6dqcqk
-::res://Scenes/::1793926946
-front_counter.tscn::PackedScene::4508582223684834517::1793911584::0::1::::<><><>0<>0<><>::uid://b0w3gadjmty3v::::res://Scripts/UIs/front_counter.gd<>uid://41bcqtsb28kt::::res://Scenes/UIs/pause_menu.tscn<>uid://bd47wnhfv6ibu::::res://Scenes/Foods/strawberry_milkshake.tscn<>uid://cx0cn502uvolg::::res://Scenes/Customers/customer_base.tscn
-game.tscn::PackedScene::1838089989570131223::1793926946::0::1::::<><><>0<>0<><>::uid://bbv1dpmjgcwro::::res://Scripts/UIs/gamecode.gd<>uid://b2wb0vgajf8xh::::res://Assets/Cookware/cutting_board.png<>uid://bfbwvdvjduf7k::::res://Scenes/Foods/apple_ingredient.tscn<>uid://1r8mgspmcv2t::::res://Scenes/Foods/milk_ingredient.tscn<>uid://l8vuyx8y6t18::::res://Scenes/Foods/carrot_ingredient.tscn<>uid://41bcqtsb28kt::::res://Scenes/UIs/pause_menu.tscn<>uid://dwacipi1646lq::::res://Scenes/Cookware/Pot.tscn<>uid://bvmr2t23ts1q3::::res://Scenes/UIs/pop_up_recipe.tscn<>uid://d34awfboc723l::::res://Scenes/Cookware/shelf.tscn<>uid://k0aj3bsu7o33::::res://Scenes/Foods/strawberry_ingredient.tscn<>uid://cyqoete64hk4p::::res://Scenes/Foods/tofu_ingredient.tscn<>uid://bbkp0jvrw605q::::res://Scenes/Cookware/window.tscn<>uid://vofh8ufo6dhq::::res://Assets/UIs/Icons/BookClosed.png<>uid://l5es74krredl::::res://Scenes/Foods/bluebery_ingredient.tscn<>uid://bhpxfq1fynrua::::res://Scenes/Foods/dog_treat_ingredient.tscn<>uid://8pmfnrfk7r68::::res://Scenes/Foods/fish_ingredient.tscn<>uid://b7abcw30b5pf5::::res://Scenes/UIs/money_amount.tscn<>uid://dx75xyf8o71ua::::res://Scenes/Cookware/fridge.tscn
+::res://Scenes/::1793979750
+front_counter.tscn::PackedScene::4508582223684834517::1793979105::0::1::::<><><>0<>0<><>::uid://b0w3gadjmty3v::::res://Scripts/UIs/front_counter.gd<>uid://kocgqp5ogebc::::res://Assets/Scenes/front_counter.png<>uid://41bcqtsb28kt::::res://Scenes/UIs/pause_menu.tscn<>uid://bd47wnhfv6ibu::::res://Scenes/Completed Recipes/strawberry_milkshake.tscn<>uid://cx0cn502uvolg::::res://Scenes/Customers/customer_base.tscn
+game.tscn::PackedScene::1838089989570131223::1793979750::0::1::::<><><>0<>0<><>::uid://bbv1dpmjgcwro::::res://Scripts/UIs/gamecode.gd<>uid://b2wb0vgajf8xh::::res://Assets/Cookware/cutting_board.png<>uid://bfbwvdvjduf7k::::res://Scenes/Foods/apple_ingredient.tscn<>uid://1r8mgspmcv2t::::res://Scenes/Foods/milk_ingredient.tscn<>uid://l8vuyx8y6t18::::res://Scenes/Foods/carrot_ingredient.tscn<>uid://41bcqtsb28kt::::res://Scenes/UIs/pause_menu.tscn<>uid://dwacipi1646lq::::res://Scenes/Cookware/Pot.tscn<>uid://bvmr2t23ts1q3::::res://Scenes/UIs/pop_up_recipe.tscn<>uid://d34awfboc723l::::res://Scenes/Cookware/shelf.tscn<>uid://k0aj3bsu7o33::::res://Scenes/Foods/strawberry_ingredient.tscn<>uid://cyqoete64hk4p::::res://Scenes/Foods/tofu_ingredient.tscn<>uid://bbkp0jvrw605q::::res://Scenes/Cookware/window.tscn<>uid://vofh8ufo6dhq::::res://Assets/UIs/Icons/BookClosed.png<>uid://l5es74krredl::::res://Scenes/Foods/bluebery_ingredient.tscn<>uid://bhpxfq1fynrua::::res://Scenes/Foods/dog_treat_ingredient.tscn<>uid://8pmfnrfk7r68::::res://Scenes/Foods/fish_ingredient.tscn<>uid://b7abcw30b5pf5::::res://Scenes/UIs/money_amount.tscn<>uid://dx75xyf8o71ua::::res://Scenes/Cookware/fridge.tscn
 scene_manager.tscn::PackedScene::8750755273462622295::1792458117::0::1::::<><><>0<>0<><>::uid://bbo5snr5d0hla::::res://Scripts/UIs/scene_manager.gd
 start.tscn::PackedScene::8850148008031372415::1792458117::0::1::::<><><>0<>0<><>::
 ::res://Scenes/Completed Recipes/::1793911584
@@ -739,8 +741,8 @@ fish_milkshake.tscn::PackedScene::6035732802338650677::1793911584::0::1::::<><><
 fruit_cake.tscn::PackedScene::7893618050816423208::1793911584::0::1::::<><><>0<>0<><>::uid://qbhtsxs8qnus::::res://Scripts/Completed Recipes/fruit_cake.gd<>uid://c3hsfpuxrh68a::::res://Assets/Foods/StrawberryMilkshake.png
 rainbow_cake.tscn::PackedScene::4921145769495341182::1793911584::0::1::::<><><>0<>0<><>::uid://dg8ert6jjqtai::::res://Scripts/Completed Recipes/rainbow_cake.gd<>uid://c3hsfpuxrh68a::::res://Assets/Foods/StrawberryMilkshake.png
 strawberry_milkshake.tscn::PackedScene::2658837094583016958::1793911584::0::1::::<><><>0<>0<><>::uid://broxnvhhs65ys::::res://Scripts/Completed Recipes/strawberry_milkshake.gd<>uid://c3hsfpuxrh68a::::res://Assets/Foods/StrawberryMilkshake.png
-::res://Scenes/Cookware/::1793929586
-fridge.tscn::PackedScene::8841529395730559056::1793929586::0::1::::<><><>0<>0<><>::uid://b53auvo3jk1uc::::res://Assets/Cookware/Fridge.png<>uid://b0qxl6blrfgio::::res://Scripts/Cookware/fridge.gd
+::res://Scenes/Cookware/::1794001836
+fridge.tscn::PackedScene::8841529395730559056::1794001836::0::1::::<><><>0<>0<><>::uid://b53auvo3jk1uc::::res://Assets/Cookware/Fridge.png<>uid://b0qxl6blrfgio::::res://Scripts/Cookware/fridge.gd
 Pot.tscn::PackedScene::8703553132885398682::1793921994::0::1::::<><><>0<>0<><>::uid://bya346253n4ph::::res://Assets/Cookware/shelfpot.png<>uid://bs5nwbkiwxtum::::res://Scripts/Cookware/inside_pot.gd<>uid://ceiap8tn4u76f::::res://Assets/Animations/FirePotAnimation/Fire1.png<>uid://sjf3syw1dyq8::::res://Assets/Animations/FirePotAnimation/Fire2.png<>uid://ds404vs1uu3xj::::res://Assets/Animations/FirePotAnimation/Fire3.png<>uid://dy7r111hfob3t::::res://Assets/Animations/FirePotAnimation/Fire4.png<>uid://dyleq1fkfr5d7::::res://Assets/Animations/FirePotAnimation/Fire5.png
 shelf.tscn::PackedScene::9184456180079464783::1792458116::0::1::::<><><>0<>0<><>::uid://rpqshpcvrh80::::res://Assets/Cookware/Shelf.png
 window.tscn::PackedScene::2478209210564944552::1792458116::0::1::::<><><>0<>0<><>::uid://cel8fe4kx6w0w::::res://Assets/Cookware/Window.png
@@ -786,8 +788,8 @@ fish_milkshake.gd::GDScript::5347564590934496657::1793911584::0::1::::<>complete
 fruit_cake.gd::GDScript::1125545806809521662::1793911584::0::1::::<>completedrecipes<><>0<>0<><>::
 rainbow_cake.gd::GDScript::7648793851513105476::1793911584::0::1::::<>completedrecipes<><>0<>0<><>::
 strawberry_milkshake.gd::GDScript::3609953134398220658::1793911584::0::1::::<>completedrecipes<><>0<>0<><>::
-::res://Scripts/Cookware/::1793926385
-fridge.gd::GDScript::4175589583566819598::1793926385::0::1::::<>StaticBody2D<><>0<>0<><>::
+::res://Scripts/Cookware/::1793982113
+fridge.gd::GDScript::4175589583566819598::1793982113::0::1::::<>StaticBody2D<><>0<>0<><>::
 inside_pot.gd::GDScript::3712579878536552728::1793911584::0::1::::<>Area2D<><>0<>0<><>::
 ::res://Scripts/Customers/::1793911584
 character_test_greeting.gd::GDScript::8098307633908746578::1792458117::0::1::::<>Node2D<><>0<>0<><>::

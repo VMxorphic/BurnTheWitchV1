@@ -75,10 +75,6 @@ position = Vector2(272, 336)
 [node name="FishIngredient" parent="." unique_id=1029412498 instance=ExtResource("16_nnt18")]
 position = Vector2(304, 104)
 
-[node name="Fridge" parent="." unique_id=2137048956 instance=ExtResource("20_7nbq1")]
-position = Vector2(1040, 504)
-scale = Vector2(1.2199332, 1.2199332)
-
 [node name="PopUpRecipe" parent="." unique_id=1445618864 instance=ExtResource("7_5hnu0")]
 anchors_preset = 0
 anchor_left = 0.0
@@ -111,6 +107,10 @@ offset_bottom = 624.0
 text = "Counter"
 
 [node name="MoneyAmount" parent="." unique_id=286425449 instance=ExtResource("18_85qyi")]
+
+[node name="Fridge" parent="." unique_id=2137048956 instance=ExtResource("20_7nbq1")]
+position = Vector2(1032, 504)
+scale = Vector2(1.3345473, 1.3345473)
 
 [connection signal="pressed" from="RecipeMenuButton" to="." method="_on_recipe_menu_button_pressed"]
 [connection signal="pressed" from="ToCounterButton" to="." method="_on_to_counter_button_pressed"]
