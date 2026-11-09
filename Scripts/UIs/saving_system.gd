@@ -2,7 +2,7 @@ extends Node2D
 
 var save_path = 'user://variable.save'
 
-var variable1= 25
+var variable1= 0
 var variable2= 0
 #var variable3 = 0
  
