@@ -5,6 +5,7 @@ extends Control
 
 func _ready() -> void:
 	DayNightCycleManager.time_tick.connect(on_time_tick)
+	pass
 
 
 func on_time_tick(day:int, hour:int, minute:int)->void:

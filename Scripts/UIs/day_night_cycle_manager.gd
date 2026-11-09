@@ -1,11 +1,10 @@
 extends Node
 
-const  MINUTES_PER_DAY: int = 24 * 60
+const MINUTES_PER_DAY: int = 24 * 60
 const MINUTES_PER_HOUR: int= 60
 const GAME_MINUTE_DURATION: float = TAU / MINUTES_PER_DAY
 
 var game_speed:float = 5.0
-
 
 var inicial_day:int = 1
 var inicial_hour:int = 00
@@ -36,10 +35,10 @@ func set_inicial_time() ->void:
 	
 func recalculate_time() ->void:
 	var total_minutes:int = int(time/GAME_MINUTE_DURATION)
-	var day: int =int(total_minutes/MINUTES_PER_DAY)
-	var current_day_minutes: int = total_minutes % MINUTES_PER_DAY
+	var day: int= int(total_minutes/MINUTES_PER_DAY)
+	var current_day_minutes: int= total_minutes % MINUTES_PER_DAY
 	var hour: int= int(current_day_minutes/MINUTES_PER_HOUR)
-	var minute: int = int(current_day_minutes % MINUTES_PER_HOUR)
+	var minute: int= int(current_day_minutes % MINUTES_PER_HOUR)
 	
 	if current_minute != minute:
 		current_minute = minute
