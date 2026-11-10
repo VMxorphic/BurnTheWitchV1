@@ -16,17 +16,24 @@ const RECIPES: Dictionary={
 ["EyeIngredient","MilkIngredient"]: "Bloodshot Eye Milkshake",
 ["FishIngredient","MilkIngredient"]: "Fish Milkshake",
 ["DogTreatIngredient","MilkIngredient"]: "Biscuit Milkshake",
-#All Cakes (6)
-["ButterIngredient", "MilkIngredient","FlourIngredient", "EggIngredient","CarrotIngredient"]: "Carrot Cake",
-["ButterIngredient", "MilkIngredient","FlourIngredient", "EggIngredient","BloodVitalIngredient"]: "Bloody Cake",
-["ButterIngredient", "MilkIngredient","FlourIngredient", "EggIngredient","CrystalIngredient"]: "Crystal Cake",
-["ButterIngredient", "MilkIngredient","FlourIngredient", "EggIngredient","RainbowIngredient"]: "Rainbow Cake",
-["ButterIngredient", "MilkIngredient","FlourIngredient", "EggIngredient"]: "Basic Cake"
+["CrystalIngredient","MilkIngredient"]: "Crystal Milkshake",
+["CrystalIngredient","MilkIngredient"]: "Crystal Milkshake",
+["MilkIngredient","MilkIngredient"]: "Basic Milkshake",
+#basic milkshake
 
-#All Puddings (6)
-
-
+#All Cakes (9)
+["MilkIngredient","FlourIngredient", "EggIngredient","BlueberryIngredient"]: "Blueberry Cake",
+["MilkIngredient","FlourIngredient", "EggIngredient","StrawberryIngredient"]: "Strawberry Cake",
+["MilkIngredient","FlourIngredient", "EggIngredient","AppleIngredient"]: "Apple Cake",
+["MilkIngredient","FlourIngredient", "EggIngredient","EyeIngredient"]: "Bloody Cake",
+["MilkIngredient","FlourIngredient", "EggIngredient","FishIngredient"]: "Fish Cake",
+["MilkIngredient","FlourIngredient", "EggIngredient","DogTreatIngredient"]: "Buscuit Cake",
+["MilkIngredient","FlourIngredient", "EggIngredient","CrystalIngredient"]: "Crystal Cake",
+["MilkIngredient","FlourIngredient", "EggIngredient"]: "Basic Cake",
+["MilkIngredient","FlourIngredient", "EggIngredient","CarrotIngredient"]: "Carrot Cake",
 }
+
+
 
 func _ready() -> void:
 	body_entered.connect( _on_inside_pot_body_entered) 

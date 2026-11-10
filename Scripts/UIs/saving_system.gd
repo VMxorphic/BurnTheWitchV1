@@ -12,6 +12,7 @@ var variable2= 0
  
 func _ready():
 	print(" saving system ready!")
+	DayNightCycleManager.time_tick.connect(on_time_tick)
 
 	#text1 =$variable1/text1
 	#text2 = $variable2/text2
@@ -44,9 +45,6 @@ var money_amount: Array[String]= []
 	#variable3 += 1
  
 # SAVE AND LOAD-----------------------------------------------------------------------
- 
-func start_save(on_time_tick) -> void:
-	save()
 
 
 
@@ -65,8 +63,8 @@ func save():
 func load_data():
 	if FileAccess.file_exists(save_path):
 		var file = FileAccess.open(save_path, FileAccess.READ)
-		variable1 = file.get_var(variable1)
-		variable2 = file.get_var(variable2)
+		variable1 = file.get_var()
+		variable2 = file.get_var()
 		print("day passed is ",variable1)
 		print("time is ",variable2)
 		
