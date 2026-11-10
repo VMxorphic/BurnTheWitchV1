@@ -14,8 +14,9 @@ var order_range = randi_range(1,2)
 
 const customer_neutral = preload("uid://dmvyjmohsm1qq")
 const kitsune_neutral = preload("res://Assets/Customers/Kitsune/kitsune_neutral.png")
+const cerberus_neutral = preload("res://Assets/Customers/Cerberus/Cerberus.png")
 
-const customer_sprites: Array = [customer_neutral, kitsune_neutral]
+const customer_sprites: Array = [customer_neutral, kitsune_neutral, cerberus_neutral]
 
 var current_customer = null
 
