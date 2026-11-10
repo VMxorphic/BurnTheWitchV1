@@ -1,3 +1,7 @@
 res://Scenes/front_counter.tscn
 res://Dialogic/Styles/text_bubble_style.tres
 res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Textbubble/speech_bubble.gdshader
+res://Scenes/UIs/day_and_night_panel.tscn
+res://Scripts/UIs/day_and_night_panel.gd
+res://Scripts/UIs/day_night_cycle_manager.gd
+res://Scripts/UIs/saving_system.gd
