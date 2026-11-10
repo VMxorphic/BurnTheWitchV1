@@ -21,23 +21,24 @@ var current_customer = null
 
 func _ready() -> void:
 	_spawn_customer()
-	Global.food_still_needed.append_array(Global.order)
-	#print("food_still_needed: ", Global.food_still_needed)
 
-	sprite_2d.texture = customer_sprites.pick_random()
-	#current_customer = sprite_2d.texture
-	#print("the current customer is ", current_customer)
 
 
 
 func _spawn_customer() -> void:
 	Global.order.clear()
 	food_recieved.clear()
+
+	sprite_2d.texture = customer_sprites.pick_random()
+	#current_customer = sprite_2d.texture
+	#print("the current customer is ", current_customer)
+	
 	if Global.line_spot_1_occupied == false:
 		#gets a random order, 1 to x items
 		print("Spawned customer")
 		for i in range(order_range):
 			Global.order.append(Global.completed_recipes.pick_random())
+			Global.food_still_needed.append_array(Global.order)
 			print("Order is:", Global.order)
 		
 		await _in_tween()

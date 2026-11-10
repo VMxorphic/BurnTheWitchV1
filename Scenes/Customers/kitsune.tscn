@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cc5kx47w55e0q"]
 
 [ext_resource type="Script" uid="uid://dnm47c0n0ge2m" path="res://Scripts/Customers/charatcer_test_greeting.gd" id="1_awts2"]
-[ext_resource type="Texture2D" uid="uid://chdsyndhqlmgg" path="res://Assets/Customers/Kitsune/kitsune_neutral.png" id="2_awts2"]
+[ext_resource type="Texture2D" uid="uid://b2s0a30xcree2" path="res://Assets/Customers/Kitsune/kitsune_neutral.png" id="2_awts2"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_awts2"]
 size = Vector2(87.3125, 148.625)
