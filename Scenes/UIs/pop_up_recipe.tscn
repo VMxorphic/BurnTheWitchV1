@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://b2ji1se2gyo15" path="res://Scripts/UIs/pop_up_recipe.gd" id="1_56p3v"]
 [ext_resource type="Texture2D" uid="uid://dj57y3116o2mt" path="res://icon.svg" id="1_64ssj"]
-[ext_resource type="Texture2D" uid="uid://cr2eyucn65eoa" path="res://Assets/UIs/Icons/MagicOrb.png" id="2_p3cja"]
+[ext_resource type="Texture2D" uid="uid://bkoba6etwrln4" path="res://Assets/UIs/Icons/MagicOrb.png" id="2_p3cja"]
 
 [node name="PopUpRecipe" type="Control" unique_id=1394396815]
 layout_mode = 3
@@ -45,6 +45,8 @@ offset_bottom = 115.0
 text = "Continue"
 
 [node name="Label" type="Label" parent="." unique_id=1455135656]
+custom_minimum_size = Vector2(261, 23)
+custom_maximum_size = Vector2(261, 23)
 layout_mode = 1
 offset_left = -130.0
 offset_top = -92.0

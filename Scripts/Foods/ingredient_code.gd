@@ -1,7 +1,7 @@
 class_name ingredientscode
 extends RigidBody2D
 
-@export var max_drag_distance: float = 400.0
+@export var max_drag_distance: float = 100.0
 @export var follow_speed: float = 25.0
 @export var max_speed: float = 900.0
 

@@ -11,6 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://k0aj3bsu7o33" path="res://Scenes/Foods/strawberry_ingredient.tscn" id="10_1phco"]
 [ext_resource type="PackedScene" uid="uid://cyqoete64hk4p" path="res://Scenes/Foods/tofu_ingredient.tscn" id="10_ldgsr"]
 [ext_resource type="PackedScene" uid="uid://bbkp0jvrw605q" path="res://Scenes/Cookware/window.tscn" id="11_1phco"]
+[ext_resource type="PackedScene" uid="uid://cl5tijr2uscnm" path="res://Scenes/Foods/flour_ingredient.tscn" id="12_ewbju"]
 [ext_resource type="Texture2D" uid="uid://vofh8ufo6dhq" path="res://Assets/UIs/Icons/BookClosed.png" id="12_rfjv2"]
 [ext_resource type="PackedScene" uid="uid://l5es74krredl" path="res://Scenes/Foods/bluebery_ingredient.tscn" id="14_1phco"]
 [ext_resource type="PackedScene" uid="uid://bhpxfq1fynrua" path="res://Scenes/Foods/dog_treat_ingredient.tscn" id="15_nb51f"]
@@ -44,15 +45,22 @@ scale = Vector2(1.1017658, 1.1017658)
 position = Vector2(568, 544)
 scale = Vector2(0.35853642, 0.35853642)
 
+[node name="Fridge" parent="." unique_id=2137048956 instance=ExtResource("20_7nbq1")]
+position = Vector2(1032, 504)
+scale = Vector2(1.3345473, 1.3345473)
+
+[node name="FlourIngredient" parent="." unique_id=1346990998 instance=ExtResource("12_ewbju")]
+position = Vector2(848, 568)
+
+[node name="shelf" parent="." unique_id=1166927236 instance=ExtResource("9_h4fw4")]
+position = Vector2(144, 192)
+scale = Vector2(0.91001344, 0.91001344)
+
 [node name="AppleIngredient" parent="." unique_id=1191235726 instance=ExtResource("2_lx5s4")]
 position = Vector2(232, 120)
 
 [node name="CarrotIngredient" parent="." unique_id=852776623 instance=ExtResource("5_pc4w8")]
 position = Vector2(384, 216)
-
-[node name="shelf" parent="." unique_id=1166927236 instance=ExtResource("9_h4fw4")]
-position = Vector2(144, 192)
-scale = Vector2(0.91001344, 0.91001344)
 
 [node name="TofuIngredient" parent="." unique_id=725578341 instance=ExtResource("10_ldgsr")]
 position = Vector2(152, 120)
@@ -99,10 +107,6 @@ offset_bottom = 624.0
 text = "Counter"
 
 [node name="DayAndNightPanel" parent="." unique_id=164352154 instance=ExtResource("18_85qyi")]
-
-[node name="Fridge" parent="." unique_id=2137048956 instance=ExtResource("20_7nbq1")]
-position = Vector2(1032, 504)
-scale = Vector2(1.3345473, 1.3345473)
 
 [connection signal="pressed" from="RecipeMenuButton" to="." method="_on_recipe_menu_button_pressed"]
 [connection signal="pressed" from="ToCounterButton" to="." method="_on_to_counter_button_pressed"]
