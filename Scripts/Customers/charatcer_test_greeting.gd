@@ -39,8 +39,9 @@ func _spawn_customer() -> void:
 		print("Spawned customer")
 		for i in range(order_range):
 			Global.order.append(Global.completed_recipes.pick_random())
-			Global.food_still_needed.append_array(Global.order)
 			print("Order is:", Global.order)
+		
+		Global.food_still_needed.append_array(Global.order)
 		
 		await _in_tween()
 		await _inital_timeline()

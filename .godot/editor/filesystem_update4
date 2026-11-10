@@ -7,3 +7,10 @@ res://Dialogic/Characters/character_test.dch
 res://Dialogic/Characters/vampire.dch
 res://Scenes/Customers/customer_base.tscn
 res://Scripts/Customers/charatcer_test_greeting.gd
+res://Scripts/Cookware/inside_pot.gd
+res://Scripts/Foods/ingredient_code.gd
+res://Scripts/UIs/main_menu.gd
+res://Scripts/UIs/pop_up_recipe.gd
+res://Scripts/UIs/recipes_menu.gd
+res://Scripts/UIs/saving_system.gd
+res://Scenes/Foods/flour_spoon.tscn
