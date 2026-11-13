@@ -1,2 +1,2 @@
 Characters/character_test: hi can i get a {" & a ".join(Global.order)}
-Characters/character_test (customer_happy): thanks
+Characters/character_test: thanks
