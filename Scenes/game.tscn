@@ -37,6 +37,9 @@ position = Vector2(0.13898541, 6.5789204)
 scale = Vector2(0.007368693, 0.030996213)
 texture = ExtResource("2_85qyi")
 
+[node name="FlourIngredient" parent="." unique_id=1346990998 instance=ExtResource("12_ewbju")]
+position = Vector2(848, 568)
+
 [node name="Window" parent="." unique_id=1355458674 instance=ExtResource("11_1phco")]
 position = Vector2(960, 232)
 scale = Vector2(1.1017658, 1.1017658)
@@ -48,9 +51,6 @@ scale = Vector2(0.35853642, 0.35853642)
 [node name="Fridge" parent="." unique_id=2137048956 instance=ExtResource("20_7nbq1")]
 position = Vector2(1032, 504)
 scale = Vector2(1.3345473, 1.3345473)
-
-[node name="FlourIngredient" parent="." unique_id=1346990998 instance=ExtResource("12_ewbju")]
-position = Vector2(848, 568)
 
 [node name="shelf" parent="." unique_id=1166927236 instance=ExtResource("9_h4fw4")]
 position = Vector2(144, 192)

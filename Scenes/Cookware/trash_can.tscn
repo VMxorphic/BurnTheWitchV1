@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://df3bbhcu7xa72"]
+
+[node name="TrashCan" type="StaticBody2D" unique_id=749945432]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1390165896]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=778400042]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="." unique_id=2853299]
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="." unique_id=175342163]

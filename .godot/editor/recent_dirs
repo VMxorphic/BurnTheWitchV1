@@ -1,15 +1,11 @@
-<<<<<<< Updated upstream
+res://Scripts/Completed Recipes/
+res://Scenes/Cookware/
 res://Scripts/Foods/
 res://Scenes/Foods/
 res://Assets/Scenes/Front counter/
 res://Assets/Customers/Kitsune/
 res://Dialogic/Characters/
 res://Assets/Scenes/
-res://Scripts/Completed Recipes/
-=======
-res://Assets/Scenes/Front counter/
-res://Scenes/UIs/
->>>>>>> Stashed changes
 res://Scripts/UIs/
 res://Scenes/UIs/
 res://Scenes/
@@ -17,5 +13,4 @@ res://Dialogic/TextbubbleLayer/
 res://Dialogic/
 res://Dialogic/Styles/
 res://Dialogic/Timelines/
-res://Scenes/Cookware/
 res://Scripts/Cookware/
