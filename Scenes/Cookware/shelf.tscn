@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://d34awfboc723l"]
 
-[ext_resource type="Texture2D" uid="uid://rpqshpcvrh80" path="res://Assets/Cookware/Shelf.png" id="1_0p3hn"]
+[ext_resource type="Texture2D" uid="uid://d0nbpsr785l85" path="res://Assets/Cookware/kitchenshelf.png" id="1_0p3hn"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_whp10"]
 size = Vector2(252, 18)
@@ -8,6 +8,7 @@ size = Vector2(252, 18)
 [node name="shelf" type="StaticBody2D" unique_id=1166927236]
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=33068137]
+position = Vector2(-7, 14)
 scale = Vector2(0.262213, 0.262213)
 texture = ExtResource("1_0p3hn")
 region_enabled = true

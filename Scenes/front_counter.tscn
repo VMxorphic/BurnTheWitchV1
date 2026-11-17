@@ -48,10 +48,10 @@ scale = Vector2(0.5088435, 59.16744)
 shape = SubResource("RectangleShape2D_sdo8n")
 
 [node name="ToKitchenButton" type="Button" parent="." unique_id=372756350]
-offset_left = 16.0
-offset_top = 568.0
-offset_right = 168.0
-offset_bottom = 624.0
+offset_left = 21.0
+offset_top = 574.0
+offset_right = 173.0
+offset_bottom = 630.0
 text = "Kitchen"
 
 [node name="PauseMenu" parent="." unique_id=1733997507 instance=ExtResource("3_siu5d")]
