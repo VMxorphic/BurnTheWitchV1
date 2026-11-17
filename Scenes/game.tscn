@@ -12,7 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://cyqoete64hk4p" path="res://Scenes/Foods/tofu_ingredient.tscn" id="10_ldgsr"]
 [ext_resource type="PackedScene" uid="uid://bbkp0jvrw605q" path="res://Scenes/Cookware/window.tscn" id="11_1phco"]
 [ext_resource type="PackedScene" uid="uid://cl5tijr2uscnm" path="res://Scenes/Foods/flour_ingredient.tscn" id="12_ewbju"]
-[ext_resource type="Texture2D" uid="uid://vofh8ufo6dhq" path="res://Assets/UIs/Icons/BookClosed.png" id="12_rfjv2"]
+[ext_resource type="Texture2D" uid="uid://clupeeumdujh3" path="res://Assets/UIs/Icons/BookClosed.png" id="12_rfjv2"]
 [ext_resource type="PackedScene" uid="uid://l5es74krredl" path="res://Scenes/Foods/bluebery_ingredient.tscn" id="14_1phco"]
 [ext_resource type="PackedScene" uid="uid://bhpxfq1fynrua" path="res://Scenes/Foods/dog_treat_ingredient.tscn" id="15_nb51f"]
 [ext_resource type="PackedScene" uid="uid://b6cma1n8sqrma" path="res://Scenes/UIs/day_and_night_panel.tscn" id="18_85qyi"]

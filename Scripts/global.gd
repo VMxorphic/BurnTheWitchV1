@@ -38,6 +38,24 @@ const completed_recipe_scenes: Dictionary={
 }
 
 
+#A dictonary of all the customer timelines with Dialogic
+const customer_timelines: Dictionary={
+#All base customer 
+"grey_order": "res://Dialogic/Timelines/customer_base/grey_order.dtl",
+"grey_right":"res://Dialogic/Timelines/customer_base/grey_right.dtl", 
+"grey_wrong": "res://Dialogic/Timelines/customer_base/grey_wrong.dtl",
+"grey_restate": "res://Dialogic/Timelines/customer_base/grey_restate.dtl",
+
+#All Cerberus 
+"cerberus_order": "res://Dialogic/Timelines/Cerberus/cerberus_order.dtl",
+"cerberus_right": "",
+"cerberus_wrong": "",
+"cerberus_restate": "",
+
+}
+
+
+
 
 #Keep track of if a customer is waiting for food or not
 var line_spot_1_occupied = false

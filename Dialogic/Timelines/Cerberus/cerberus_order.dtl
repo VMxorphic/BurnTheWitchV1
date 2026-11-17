@@ -1,0 +1,2 @@
+Characters/character_test: Hello, it would be my greatest pleasure to order a {" &  ".join(Global.order)}.
+Characters/character_test: Thank you.

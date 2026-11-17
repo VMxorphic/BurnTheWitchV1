@@ -10,43 +10,43 @@
 "style": "text_bubble_style",
 "suffix": ""
 },
-&"default_portrait": "customer_neutral",
+&"default_portrait": "grey_angry",
 &"description": "",
 &"display_name": "test",
 &"mirror": false,
 &"nicknames": ["test"],
 &"offset": Vector2(0, 0),
 &"portraits": {
-"customer_angry": {
+"grey_angry": {
 "export_overrides": {
-"image": "\"res://Assets/Customers/costumer_angry.png\""
+"image": "\"res://Assets/Customers/Grey/grey_angry.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
 },
-"customer_frustrated": {
+"grey_frustrated": {
 "export_overrides": {
-"image": "\"res://Assets/Customers/costumer_frustrated.png\""
+"image": "\"res://Assets/Customers/Grey/grey_frustrated.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
 },
-"customer_happy": {
+"grey_happy": {
 "export_overrides": {
-"image": "\"res://Assets/Customers/costumer_happy.png\""
+"image": "\"res://Assets/Customers/Grey/grey_happy.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
 },
-"customer_neutral": {
+"grey_neutral": {
 "export_overrides": {
-"image": "\"res://Assets/Customers/costumer_neutral.png\""
+"image": "\"res://Assets/Customers/Grey/grey_neutral.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),

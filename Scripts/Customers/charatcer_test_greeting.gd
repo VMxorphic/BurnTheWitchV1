@@ -12,45 +12,53 @@ var order_range = randi_range(1,2)
 
 @onready var customer_base: Node2D = $"."
 
-const customer_neutral = preload("uid://dmvyjmohsm1qq")
+const grey_neutral = preload("res://Assets/Customers/Grey/grey_neutral.png")
 const kitsune_neutral = preload("res://Assets/Customers/Kitsune/kitsune_neutral.png")
+const cerberus_neutral = preload("res://Assets/Customers/Cerberus/Cerberus.png")
 
-const customer_sprites: Array = [customer_neutral, kitsune_neutral]
-
+const customer_sprites: Array = [grey_neutral, kitsune_neutral, cerberus_neutral]
 var current_customer = null
+
+var week = int((DayNightCycleManager.time/ DayNightCycleManager.GAME_MINUTE_DURATION)/DayNightCycleManager.MINUTES_PER_DAY)
+var customers_allowed_per_day = 100000 #round(2 + week*1.5)
+var total_customers_served = 0
 
 func _ready() -> void:
 	_spawn_customer()
 
 
-
-
 func _spawn_customer() -> void:
-	Global.order.clear()
-	food_recieved.clear()
+	if total_customers_served < customers_allowed_per_day:
+		Global.order.clear()
+		food_recieved.clear()
 
-	sprite_2d.texture = customer_sprites.pick_random()
-	#current_customer = sprite_2d.texture
-	#print("the current customer is ", current_customer)
-	
-	if Global.line_spot_1_occupied == false:
-		#gets a random order, 1 to x items
-		print("Spawned customer")
-		for i in range(order_range):
-			Global.order.append(Global.completed_recipes.pick_random())
-			Global.food_still_needed.append_array(Global.order)
-			print("Order is:", Global.order)
+		sprite_2d.texture = customer_sprites.pick_random()
+		current_customer = sprite_2d.texture.resource_path.get_file().trim_suffix(".png").trim_suffix("_neutral")
+		#print("the current customer is ", current_customer)
 		
-		await _in_tween()
-		await _inital_timeline()
-		Global.line_spot_1_occupied = true
+		if Global.line_spot_1_occupied == false:
+			#gets a random order, 1 to x items
+			print("Spawned customer")
+			for i in range(order_range):
+				Global.order.append(Global.completed_recipes.pick_random())
+			
+			print("Order is:", Global.order)
+			Global.food_still_needed.append_array(Global.order)
+			
+			await _in_tween()
+			await _inital_timeline()
+			Global.line_spot_1_occupied = true
+			total_customers_served += 1
 
 func _inital_timeline():
 	#Dialogic
 	var layout = Dialogic.Styles.load_style("text_bubble_style")
 	var character_resource = load("res://Dialogic/Characters/character_test.dch")
 	layout.register_character(character_resource, speech_bubble_marker_2d)
-	Dialogic.start("customer_order")
+	
+	
+	Dialogic.start(current_customer.to_lower() + "_order")
+	#print("timeline started ", current_customer.to_lower() + "_order")
  
 	await Dialogic.timeline_ended
 
@@ -92,16 +100,16 @@ func _on_customer_hitbox_entered(body: RigidBody2D) -> void:
 				print("food_recieved: ", food_recieved)
 
 			if food_recieved == Global.order:
-				Dialogic.start("order_right")
+				Dialogic.start(current_customer.to_lower() + "_right")
 				await Dialogic.timeline_ended
 				_out_tween()
 
 			elif body.get_recipe_name() not in Global.order:
 				print("food_recieved: ", food_recieved, " Global.order: ", Global.order)
-				Dialogic.start("order_wrong")
+				Dialogic.start(current_customer.to_lower() + "_wrong")
 
 
 func _on_area_2d_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 	if Input.is_action_just_pressed("click"):
-		Dialogic.start("restate_order")
+		Dialogic.start(current_customer.to_lower() + "_restate")
 		await Dialogic.timeline_ended
