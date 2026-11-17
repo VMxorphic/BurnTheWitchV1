@@ -27,8 +27,10 @@ position = Vector2(578, 324)
 texture = ExtResource("3_rfn2y")
 
 [node name="cash register" type="Sprite2D" parent="." unique_id=294164837]
-position = Vector2(488, 294)
+position = Vector2(320, 423)
 texture = ExtResource("3_41tiw")
+region_enabled = true
+region_rect = Rect2(221.00708, 322.21283, 418.38385, 253.22217)
 
 [node name="Counter" type="StaticBody2D" parent="." unique_id=850165918]
 position = Vector2(0, 216)
