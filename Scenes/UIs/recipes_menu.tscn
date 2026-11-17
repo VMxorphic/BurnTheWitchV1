@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://diya0vtkjg0k0" path="res://Assets/Foods/BloodshotEyeMilkshakeS.png" id="5_8y718"]
 [ext_resource type="Texture2D" uid="uid://17bolek8wooo" path="res://Assets/Foods/DogTreatMilkshakeS.png" id="6_6c5aj"]
 [ext_resource type="Texture2D" uid="uid://dcwwdrfutdate" path="res://Assets/Foods/CrystalMilkshakeS.png" id="6_rax5p"]
+[ext_resource type="Texture2D" uid="uid://b1svpx50k63ax" path="res://Assets/Foods/FishMilkshakeS.png" id="8_6c5aj"]
 
 [node name="RecipesMenu" type="Control" unique_id=573677174]
 layout_mode = 3
@@ -123,22 +124,28 @@ text = "???"
 horizontal_alignment = 1
 
 [node name="MilkShakeFish" type="TextureButton" parent="ScrollContainer/Recipe" unique_id=746810272]
+custom_maximum_size = Vector2(128, 128)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-texture_normal = ExtResource("1_og7og")
+texture_normal = ExtResource("8_6c5aj")
+stretch_mode = 0
 
 [node name="StrawberryCake" type="TextureButton" parent="ScrollContainer/Recipe" unique_id=1779568419]
+custom_maximum_size = Vector2(128, 128)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 texture_normal = ExtResource("1_og7og")
+stretch_mode = 0
 
 [node name="BlueberryCake" type="TextureButton" parent="ScrollContainer/Recipe" unique_id=964385095]
+custom_maximum_size = Vector2(128, 128)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 texture_normal = ExtResource("1_og7og")
+stretch_mode = 0
 
 [node name="MilkShakeFishLabel" type="Label" parent="ScrollContainer/Recipe" unique_id=636624081]
 layout_mode = 2
@@ -159,22 +166,28 @@ text = "???"
 horizontal_alignment = 1
 
 [node name="AppleCake" type="TextureButton" parent="ScrollContainer/Recipe" unique_id=2015864531]
+custom_maximum_size = Vector2(128, 128)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 texture_normal = ExtResource("1_og7og")
+stretch_mode = 0
 
 [node name="BloodyCake" type="TextureButton" parent="ScrollContainer/Recipe" unique_id=341330907]
+custom_maximum_size = Vector2(128, 128)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 texture_normal = ExtResource("1_og7og")
+stretch_mode = 1
 
 [node name="FishCake" type="TextureButton" parent="ScrollContainer/Recipe" unique_id=1009910561]
+custom_maximum_size = Vector2(128, 128)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 texture_normal = ExtResource("1_og7og")
+stretch_mode = 0
 
 [node name="AppleCakeLabel" type="Label" parent="ScrollContainer/Recipe" unique_id=1497041644]
 layout_mode = 2

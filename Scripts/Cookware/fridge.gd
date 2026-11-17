@@ -8,27 +8,20 @@ extends StaticBody2D
 func _on_button_pressed() -> void:
 	spawn_egg()
 	
-	
-
-
 func _on_button_2_pressed() -> void:
 	spawn_fish()
-
-
+	
 func _on_button_3_pressed() -> void:
 	spawn_eye()
 
 func _on_button_4_pressed() -> void:
 	spawn_milk()
 	
-	
 func spawn_fish()-> void:
 	const fish_fridge= preload("res://Scenes/Foods/fish_ingredient.tscn")
 	var instance= fish_fridge.instantiate()
 	add_child(instance)
 	print("fish has been spaned")
-	
-	
 	
 func spawn_milk()->void:
 	const milk_fridge= preload("res://Scenes/Foods/milk_ingredient.tscn")

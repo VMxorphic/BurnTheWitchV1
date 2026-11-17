@@ -1,20 +1,16 @@
-res://Dialogic/Timelines/Kitsune/
-res://Dialogic/Timelines/Cerberus/
-res://Assets/Customers/Kitsune/
-res://Assets/Customers/Cerberus/
-res://Dialogic/Timelines/
+res://Scripts/Completed Recipes/
+res://Scenes/Cookware/
 res://Scripts/Foods/
+res://Scenes/Foods/
 res://Assets/Scenes/Front counter/
+res://Assets/Customers/Kitsune/
 res://Dialogic/Characters/
 res://Assets/Scenes/
-res://Scripts/Completed Recipes/
-res://Assets/Scenes/Front counter/
-res://Scenes/UIs/
 res://Scripts/UIs/
 res://Scenes/UIs/
 res://Scenes/
 res://Dialogic/TextbubbleLayer/
 res://Dialogic/
 res://Dialogic/Styles/
-res://Scenes/Cookware/
+res://Dialogic/Timelines/
 res://Scripts/Cookware/
