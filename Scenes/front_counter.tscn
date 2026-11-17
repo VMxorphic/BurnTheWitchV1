@@ -1,9 +1,10 @@
 [gd_scene format=3 uid="uid://csan3a8deknu6"]
 
 [ext_resource type="Script" uid="uid://b0w3gadjmty3v" path="res://Scripts/UIs/front_counter.gd" id="1_yagsu"]
-[ext_resource type="Texture2D" uid="uid://dd5anq0q305xv" path="res://Assets/Scenes/Front counter/counter.png" id="2_rfn2y"]
 [ext_resource type="Texture2D" uid="uid://4vatm80bjml" path="res://Assets/Scenes/Front counter/cashRegister.png" id="3_41tiw"]
+[ext_resource type="Texture2D" uid="uid://d4avbqooudcd2" path="res://Assets/Scenes/Front counter/frontcounter_foreground.png" id="3_rfn2y"]
 [ext_resource type="PackedScene" uid="uid://41bcqtsb28kt" path="res://Scenes/UIs/pause_menu.tscn" id="3_siu5d"]
+[ext_resource type="Texture2D" uid="uid://bgaos2p6mvja5" path="res://Assets/Scenes/Front counter/frontcounter_background.png" id="4_41tiw"]
 [ext_resource type="PackedScene" uid="uid://cx0cn502uvolg" path="res://Scenes/Customers/customer_base.tscn" id="4_f001j"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rfn2y"]
@@ -15,15 +16,21 @@ size = Vector2(383.0482, 0.20006227)
 [node name="front_counter" type="Node2D" unique_id=1019976497]
 script = ExtResource("1_yagsu")
 
+[node name="background" type="Sprite2D" parent="." unique_id=796817519]
+position = Vector2(578, 323)
+texture = ExtResource("4_41tiw")
+
 [node name="CustomerBase" parent="." unique_id=1801528613 instance=ExtResource("4_f001j")]
 
 [node name="counter" type="Sprite2D" parent="." unique_id=656465277]
-position = Vector2(578, 323)
-texture = ExtResource("2_rfn2y")
+position = Vector2(578, 324)
+texture = ExtResource("3_rfn2y")
 
 [node name="cash register" type="Sprite2D" parent="." unique_id=294164837]
-position = Vector2(415, 294)
+position = Vector2(320, 423)
 texture = ExtResource("3_41tiw")
+region_enabled = true
+region_rect = Rect2(221.00708, 322.21283, 418.38385, 253.22217)
 
 [node name="Counter" type="StaticBody2D" parent="." unique_id=850165918]
 position = Vector2(0, 216)
@@ -36,7 +43,7 @@ shape = SubResource("RectangleShape2D_rfn2y")
 position = Vector2(232, 144)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Tray" unique_id=2103819155]
-position = Vector2(136, 317.91858)
+position = Vector2(186, 320.99997)
 scale = Vector2(0.5088435, 59.16744)
 shape = SubResource("RectangleShape2D_sdo8n")
 
