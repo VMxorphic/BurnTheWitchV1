@@ -17,35 +17,38 @@ const kitsune_neutral = preload("res://Assets/Customers/Kitsune/kitsune_neutral.
 const cerberus_neutral = preload("res://Assets/Customers/Cerberus/Cerberus.png")
 
 const customer_sprites: Array = [grey_neutral, kitsune_neutral, cerberus_neutral]
-
 var current_customer = null
+
+var week = int((DayNightCycleManager.time/ DayNightCycleManager.GAME_MINUTE_DURATION)/DayNightCycleManager.MINUTES_PER_DAY)
+var customers_allowed_per_day = 100000 #round(2 + week*1.5)
+var total_customers_served = 0
 
 func _ready() -> void:
 	_spawn_customer()
 
 
-
-
 func _spawn_customer() -> void:
-	Global.order.clear()
-	food_recieved.clear()
+	if total_customers_served < customers_allowed_per_day:
+		Global.order.clear()
+		food_recieved.clear()
 
-	sprite_2d.texture = customer_sprites.pick_random()
-	current_customer = sprite_2d.texture.resource_path.get_file().trim_suffix(".png").trim_suffix("_neutral")
-	#print("the current customer is ", current_customer)
-	
-	if Global.line_spot_1_occupied == false:
-		#gets a random order, 1 to x items
-		print("Spawned customer")
-		for i in range(order_range):
-			Global.order.append(Global.completed_recipes.pick_random())
+		sprite_2d.texture = customer_sprites.pick_random()
+		current_customer = sprite_2d.texture.resource_path.get_file().trim_suffix(".png").trim_suffix("_neutral")
+		#print("the current customer is ", current_customer)
 		
-		print("Order is:", Global.order)
-		Global.food_still_needed.append_array(Global.order)
-		
-		await _in_tween()
-		await _inital_timeline()
-		Global.line_spot_1_occupied = true
+		if Global.line_spot_1_occupied == false:
+			#gets a random order, 1 to x items
+			print("Spawned customer")
+			for i in range(order_range):
+				Global.order.append(Global.completed_recipes.pick_random())
+			
+			print("Order is:", Global.order)
+			Global.food_still_needed.append_array(Global.order)
+			
+			await _in_tween()
+			await _inital_timeline()
+			Global.line_spot_1_occupied = true
+			total_customers_served += 1
 
 func _inital_timeline():
 	#Dialogic
