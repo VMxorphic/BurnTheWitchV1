@@ -13,7 +13,7 @@ var sfx_control_slider = 1
 const completed_recipes: Array=["Blueberry Milkshake","Strawberry Milkshake", 
 "Apple Milkshake","Bloodshot eye Milkshake","Fish Milkshake","Basic Milkshake",
 "Biscuit Milkshake","Carrot Cake","Bloody Cake","Crystal Cake",
-"Fruit Cake","Carrot Cake", "Bloody Cake", "Crystal Cake", "Rainbow Cake","Basic Cake"]
+"Fruit Cake","Basic Cake"]
 
 
 #List of completed recipes in relation to their scene file
