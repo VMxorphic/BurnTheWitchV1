@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://del4ks4kaquvq"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nk8m5"]
+bg_color = Color(0.76557136, 0.52075595, 0.57815915, 1)
+
+[node name="win" type="Node2D" unique_id=580949542]
+
+[node name="Panel" type="Panel" parent="." unique_id=1156981375]
+offset_top = -8.0
+offset_right = 1160.0
+offset_bottom = 648.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_nk8m5")
+
+[node name="Label" type="Label" parent="." unique_id=255595655]
+offset_left = 64.0
+offset_top = 104.0
+offset_right = 1085.0
+offset_bottom = 528.0
+theme_override_font_sizes/font_size = 70
+text = "Day Passed
+
+Thanks for playing the demo!!!"
+horizontal_alignment = 1

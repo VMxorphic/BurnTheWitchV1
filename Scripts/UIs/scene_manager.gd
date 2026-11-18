@@ -4,6 +4,7 @@ extends Node2D
 @onready var kitchen = load("res://Scenes/game.tscn").instantiate()
 @onready var front_counter = load("res://Scenes/front_counter.tscn").instantiate()
 @onready var recipe_menu = load("res://Scenes/UIs/recipes_menu.tscn").instantiate()
+@onready var day_passed = load( "res://Scenes/Day_passed.tscn").instantiate()
 
 @onready var current_scene: Node =  main_menu
 

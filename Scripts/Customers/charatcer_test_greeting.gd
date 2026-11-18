@@ -19,8 +19,8 @@ const cerberus_neutral = preload("res://Assets/Customers/Cerberus/Cerberus.png")
 const customer_sprites: Array = [grey_neutral, kitsune_neutral, cerberus_neutral]
 var current_customer = null
 
-var week = int((DayNightCycleManager.time/ DayNightCycleManager.GAME_MINUTE_DURATION)/DayNightCycleManager.MINUTES_PER_DAY)
-var customers_allowed_per_day = 100000 #round(2 + week*1.5)
+#var week = int((DayNightCycleManager.time/ DayNightCycleManager.GAME_MINUTE_DURATION)/DayNightCycleManager.MINUTES_PER_DAY)
+var customers_allowed_per_day = 10 #round(2 + week*1.5)
 var total_customers_served = 0
 
 func _ready() -> void:
@@ -49,6 +49,9 @@ func _spawn_customer() -> void:
 			await _inital_timeline()
 			Global.line_spot_1_occupied = true
 			total_customers_served += 1
+	
+	elif total_customers_served == customers_allowed_per_day:
+		SceneManager.switch_scene(SceneManager.day_passed)
 
 func _inital_timeline():
 	#Dialogic

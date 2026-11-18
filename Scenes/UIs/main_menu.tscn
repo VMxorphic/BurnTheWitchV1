@@ -5,8 +5,8 @@
 [ext_resource type="Script" path="res://Scripts/UIs/sfx_control.gd" id="3_1tfvi"]
 [ext_resource type="Script" uid="uid://fanaksp2xytd" path="res://Scripts/UIs/full_screen_control.gd" id="3_oc7kv"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_11bdm"]
-bg_color = Color(0.979495, 0.81776, 0.887051, 1)
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lmwxa"]
+bg_color = Color(0.82477474, 0.57009923, 0.71488965, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jx3br"]
 bg_color = Color(0.999649, 0.993962, 0.995747, 1)
@@ -68,7 +68,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_styles/panel = SubResource("StyleBoxFlat_11bdm")
+theme_override_styles/panel = SubResource("StyleBoxFlat_lmwxa")
 
 [node name="Main Buttons" type="VBoxContainer" parent="." unique_id=326802996]
 layout_mode = 1
