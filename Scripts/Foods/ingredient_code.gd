@@ -1,6 +1,9 @@
 class_name ingredientscode
 extends RigidBody2D
 
+
+
+
 @export var max_drag_distance: float = 100.0
 @export var follow_speed: float = 25.0
 @export var max_speed: float = 900.0
@@ -19,6 +22,7 @@ func _physics_process(delta):
 		linear_velocity = (smoothed_position - global_position) / delta
 		if linear_velocity.length()>max_speed:
 			linear_velocity=linear_velocity.normalized()*max_speed
+			
 			
 func _on_button_button_down() -> void:
 	dragging = true

@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://b5r6yttd6rh7x"]
 
 [ext_resource type="Script" uid="uid://ceue2j52dvlb1" path="res://Scripts/Completed Recipes/apple_milkshake.gd" id="1_0d08w"]
-[ext_resource type="Texture2D" uid="uid://cmqjhgybcyyh4" path="res://Assets/Foods/AppleMilkshake.png" id="2_0d08w"]
+[ext_resource type="Texture2D" uid="uid://bedsu8s2wosm6" path="res://Assets/Foods/AppleMilkshake.png" id="2_0d08w"]
 
 [node name="Apple Milkshake" type="RigidBody2D" unique_id=1858936123 groups=["completed_recipes"]]
 mass = 5.0

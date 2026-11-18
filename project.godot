@@ -35,16 +35,21 @@ SavingSystem="*uid://dyhir8pf4dtnk"
 [dialogic]
 
 directories/dch_directory={
-"Characters/character_test": "res://Dialogic/Characters/character_test.dch",
-"cerberus": "res://Dialogic/Characters/cerberus.dch",
-"kitsune": "res://Dialogic/Characters/kitsune.dch",
-"vampire": "res://Dialogic/Characters/vampire.dch"
+"Characters/character_test": "res://Dialogic/Characters/character_test.dch"
 }
 directories/dtl_directory={
-"customer_order": "res://Dialogic/Timelines/customer_base/customer_order.dtl",
-"order_right": "res://Dialogic/Timelines/customer_base/order_right.dtl",
-"order_wrong": "res://Dialogic/Timelines/customer_base/order_wrong.dtl",
-"restate_order": "res://Dialogic/Timelines/customer_base/restate_order.dtl"
+"cerberus_order": "res://Dialogic/Timelines/Cerberus/cerberus_order.dtl",
+"cerberus_restate": "res://Dialogic/Timelines/Cerberus/cerberus_restate.dtl",
+"cerberus_right": "res://Dialogic/Timelines/Cerberus/cerberus_right.dtl",
+"cerberus_wrong": "res://Dialogic/Timelines/Cerberus/cerberus_wrong.dtl",
+"grey_order": "res://Dialogic/Timelines/customer_base/grey_order.dtl",
+"grey_restate": "res://Dialogic/Timelines/customer_base/grey_restate.dtl",
+"grey_right": "res://Dialogic/Timelines/customer_base/grey_right.dtl",
+"grey_wrong": "res://Dialogic/Timelines/customer_base/grey_wrong.dtl",
+"kitsune_order": "res://Dialogic/Timelines/Kitsune/kitsune_order.dtl",
+"kitsune_restate": "res://Dialogic/Timelines/Kitsune/kitsune_restate.dtl",
+"kitsune_right": "res://Dialogic/Timelines/Kitsune/kitsune_right.dtl",
+"kitsune_wrong": "res://Dialogic/Timelines/Kitsune/kitsune_wrong.dtl"
 }
 layout/style_directory={
 "": "res://Dialogic/Styles/text_bubble_style.tres",

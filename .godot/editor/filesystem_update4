@@ -1,3 +1,15 @@
-res://Scenes/game.tscn
+res://Scenes/UIs/recipes_menu.tscn
 res://Dialogic/Styles/text_bubble_style.tres
-res://Scenes/Cookware/trash_can.tscn
+res://Scripts/UIs/gamecode.gd
+res://Scripts/global.gd
+res://Scripts/Foods/ingredient_code.gd
+res://Scripts/UIs/recipes_menu.gd
+res://Scenes/Completed Recipes/apple_milkshake.tscn
+res://Scenes/Completed Recipes/apple_cake.tscn
+res://Scripts/Completed Recipes/apple_cake.gd
+res://Scenes/Completed Recipes/biscuit_cake.tscn
+res://Scripts/Completed Recipes/biscuit_cake.gd
+res://Scenes/Completed Recipes/strawberry_cake.tscn
+res://Scripts/Completed Recipes/strawberry_cake.gd
+res://Scripts/Completed Recipes/blueberry_cake.gd
+res://Scenes/Completed Recipes/blueberry_cake.tscn

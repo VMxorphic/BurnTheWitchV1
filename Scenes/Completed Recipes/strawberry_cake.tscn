@@ -1,20 +1,20 @@
-[gd_scene format=3 uid="uid://dkpy0a3yueu8w"]
+[gd_scene format=3 uid="uid://dwxsjed83ph64"]
 
-[ext_resource type="Script" uid="uid://qbhtsxs8qnus" path="res://Scripts/Completed Recipes/fruit_cake.gd" id="1_7oj71"]
-[ext_resource type="Texture2D" uid="uid://c3hsfpuxrh68a" path="res://Assets/Foods/StrawberryMilkshake.png" id="2_nkiq8"]
+[ext_resource type="Script" uid="uid://bk6ufcvhtn2p8" path="res://Scripts/Completed Recipes/strawberry_cake.gd" id="1_ruadb"]
+[ext_resource type="Texture2D" uid="uid://dj57y3116o2mt" path="res://icon.svg" id="2_u60f3"]
 
-[node name="Fruit Cake" type="RigidBody2D" unique_id=1858936123 groups=["completed_recipes"]]
+[node name="Strawberry Cake" type="RigidBody2D" unique_id=1858936123 groups=["completed_recipes"]]
 mass = 5.0
 gravity_scale = 5.05
 continuous_cd = 1
 contact_monitor = true
 max_contacts_reported = 4
-script = ExtResource("1_7oj71")
+script = ExtResource("1_ruadb")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=630760412]
-position = Vector2(-3.8146973e-06, 8)
-scale = Vector2(0.06403363, 0.06240208)
-texture = ExtResource("2_nkiq8")
+position = Vector2(-2.524539, 10.499996)
+scale = Vector2(0.24257092, 0.39843747)
+texture = ExtResource("2_u60f3")
 region_rect = Rect2(2376, 104, 1208, 1016)
 
 [node name="Button" type="Button" parent="." unique_id=982790656]

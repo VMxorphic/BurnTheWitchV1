@@ -18,22 +18,25 @@ const completed_recipes: Array=["Blueberry Milkshake","Strawberry Milkshake",
 
 #List of completed recipes in relation to their scene file
 const completed_recipe_scenes: Dictionary={
-#All Milkshakes (6)
+#All Milkshakes (7)
 "Blueberry Milkshake": "res://Scenes/Completed Recipes/blueberry_milkshake.tscn",
 "Strawberry Milkshake":"res://Scenes/Completed Recipes/strawberry_milkshake.tscn", 
 "Apple Milkshake": "res://Scenes/Completed Recipes/apple_milkshake.tscn",
 "Bloodshot Eye Milkshake": "res://Scenes/Completed Recipes/bloodshot_eye_milkshake.tscn",
 "Fish Milkshake": "res://Scenes/Completed Recipes/fish_milkshake.tscn",
 "Biscuit Milkshake": "res://Scenes/Completed Recipes/biscuit_milkshake.tscn",
-#All Cakes (6)
-"Fruit Cake": "res://Scenes/Completed Recipes/fruit_cake.tscn",
-"Carrot Cake": "res://Scenes/Completed Recipes/carrot_cake.tscn",
-"Bloody Cake": "res://Scenes/Completed Recipes/bloody_cake.tscn",
-"Crystal Cake": "res://Scenes/Completed Recipes/crystal_cake.tscn",
-"Rainbow Cake": "res://Scenes/Completed Recipes/rainbow_cake.tscn",
-"Basic Cake": "res://Scenes/Completed Recipes/basic_cake.tscn"
-#All Puddings (6)
+"Basic Milkshake": "res://Scenes/Completed Recipes/basic_milkshake.tscn",
 
+#All Cakes (9)
+"Blueberry Cake": "res://Scenes/Completed Recipes/blueberry_cake.tscn", 
+"Strawberry Cake": "res://Scenes/Completed Recipes/strawberry_cake.tscn", 
+"Apple Cake": "res://Scenes/Completed Recipes/apple_cake.tscn", 
+"Fish Cake": "res://Scenes/Completed Recipes/fish_cake.tscn", 
+"Bloody Cake": "res://Scenes/Completed Recipes/bloody_cake.tscn", 
+"Biscuit Cake": "res://Scenes/Completed Recipes/biscuit_cake.tscn",
+"Crystal Cake": "res://Scenes/Completed Recipes/crystal_cake.tscn",
+"Basic Cake": "res://Scenes/Completed Recipes/basic_cake.tscn", 
+"Carrot Cake": "res://Scenes/Completed Recipes/carrot_cake.tscn", 
 
 }
 

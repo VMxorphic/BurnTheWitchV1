@@ -29,6 +29,8 @@ var images_unlocked:={
 	"Bloodshot Eye Milkshake":preload("res://Assets/Foods/BloodshotEyeMilkshake.png"),
 	"Fish Milkshake":preload("res://Assets/Foods/FishMilkshake.png"),
 	"Biscuit Milkshake":preload("res://Assets/Foods/DogTreatMilkshake.png"),
+	"Basic Milkshake":preload("res://Assets/Foods/DogTreatMilkshake.png"),
+	
 	
 	"Blueberry Cake": preload("res://Assets/Cookware/cutting_board.png"),
 	"Strawberry Cake": preload("res://Assets/Cookware/cutting_board.png"),
