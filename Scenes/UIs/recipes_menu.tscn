@@ -249,7 +249,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 texture_normal = ExtResource("1_og7og")
 
-[node name="Pudding" type="TextureButton" parent="ScrollContainer/Recipe" unique_id=1005029086]
+[node name="MilkShakeBasic" type="TextureButton" parent="ScrollContainer/Recipe" unique_id=1005029086]
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
@@ -267,7 +267,7 @@ size_flags_horizontal = 4
 text = "???"
 horizontal_alignment = 1
 
-[node name="BadMilkShakeLabel" type="Label" parent="ScrollContainer/Recipe" unique_id=262088885]
+[node name="MilkshakeBasicLabel" type="Label" parent="ScrollContainer/Recipe" unique_id=262088885]
 layout_mode = 2
 size_flags_horizontal = 4
 text = "???"

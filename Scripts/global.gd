@@ -10,21 +10,21 @@ var sfx_control_slider = 1
 
 
 #List of all completed recipes
-const completed_recipes: Array=["Blueberry Milkshake","Strawberry Milkshake", 
-"Apple Milkshake","Bloodshot eye Milkshake","Fish Milkshake","Basic Milkshake",
-"Biscuit Milkshake","Carrot Cake","Bloody Cake","Crystal Cake",
-"Fruit Cake","Basic Cake"]
+const completed_recipes: Array=[
+	"Blueberry Milkshake","Strawberry Milkshake", "Apple Milkshake","Bloodshot eye Milkshake","Fish Milkshake","Basic Milkshake","Crystal Milkshake","Biscuit Milkshake"
+	,"Blueberry Cake","Strawberry Cake","Apple Cake","Fish Cake","Carrot Cake","Bloody Cake","Biscuit Cake","Crystal Cake","Basic Cake"]
 
 
 #List of completed recipes in relation to their scene file
 const completed_recipe_scenes: Dictionary={
-#All Milkshakes (7)
+#All Milkshakes (8)
 "Blueberry Milkshake": "res://Scenes/Completed Recipes/blueberry_milkshake.tscn",
 "Strawberry Milkshake":"res://Scenes/Completed Recipes/strawberry_milkshake.tscn", 
 "Apple Milkshake": "res://Scenes/Completed Recipes/apple_milkshake.tscn",
 "Bloodshot Eye Milkshake": "res://Scenes/Completed Recipes/bloodshot_eye_milkshake.tscn",
 "Fish Milkshake": "res://Scenes/Completed Recipes/fish_milkshake.tscn",
 "Biscuit Milkshake": "res://Scenes/Completed Recipes/biscuit_milkshake.tscn",
+"Crystal Milkshake": "res://Scenes/Completed Recipes/biscuit_milkshake.tscn",
 "Basic Milkshake": "res://Scenes/Completed Recipes/basic_milkshake.tscn",
 
 #All Cakes (9)

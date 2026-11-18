@@ -9,6 +9,7 @@ extends Control
 	"Fish Milkshake":{"button": $ScrollContainer/Recipe/MilkShakeFish,"label": $ScrollContainer/Recipe/MilkShakeFishLabel},
 	"Biscuit Milkshake":{"button": $ScrollContainer/Recipe/MilkShakeBisicuitFrappe,"label": $ScrollContainer/Recipe/MilkShakeBicuitFrappeLabel},
 	"Crystal Milkshake":{"button": $ScrollContainer/Recipe/MilkShakeCrystal,"label": $ScrollContainer/Recipe/MilkShakeCrystalLabel},
+	"Basic Milkshake":{"button": $ScrollContainer/Recipe/MilkShakeBasic,"label": $ScrollContainer/Recipe/MilkshakeBasicLabel},
 	
 	
 	"Bluberry Cake":{"button": $ScrollContainer/Recipe/BlueberryCake,"label": $ScrollContainer/Recipe/BlueberryCakeLabelCakeLabel},
@@ -28,6 +29,7 @@ var images_unlocked:={
 	"Strawberry Milkshake":preload("res://Assets/Foods/StrawberryMilkshake.png"),
 	"Bloodshot Eye Milkshake":preload("res://Assets/Foods/BloodshotEyeMilkshake.png"),
 	"Fish Milkshake":preload("res://Assets/Foods/FishMilkshake.png"),
+	"Crystal Milkshake":preload("res://Assets/Foods/DogTreatMilkshake.png"),
 	"Biscuit Milkshake":preload("res://Assets/Foods/DogTreatMilkshake.png"),
 	"Basic Milkshake":preload("res://Assets/Foods/DogTreatMilkshake.png"),
 	
