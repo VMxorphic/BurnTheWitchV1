@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://1gncrb8qqr40"]
 
 [ext_resource type="Script" uid="uid://bbv1dpmjgcwro" path="res://Scripts/UIs/gamecode.gd" id="1_rku1e"]
-[ext_resource type="Texture2D" uid="uid://ja1ltksrmaap" path="res://Assets/Scenes/Kitchen/kitchenbackground.png" id="2_85qyi"]
+[ext_resource type="Texture2D" uid="uid://dg2fq3qfh5igv" path="res://Assets/Scenes/Kitchen/kitchenbackground.png" id="2_85qyi"]
 [ext_resource type="Texture2D" uid="uid://d4avbqooudcd2" path="res://Assets/Scenes/Front counter/frontcounter_foreground.png" id="2_ewbju"]
 [ext_resource type="PackedScene" uid="uid://l8vuyx8y6t18" path="res://Scenes/Foods/carrot_ingredient.tscn" id="5_pc4w8"]
 [ext_resource type="PackedScene" uid="uid://41bcqtsb28kt" path="res://Scenes/UIs/pause_menu.tscn" id="5_wowpa"]
@@ -14,11 +14,12 @@
 [ext_resource type="PackedScene" uid="uid://d34awfboc723l" path="res://Scenes/Cookware/shelf.tscn" id="9_h4fw4"]
 [ext_resource type="PackedScene" uid="uid://bbkp0jvrw605q" path="res://Scenes/Cookware/window.tscn" id="11_1phco"]
 [ext_resource type="PackedScene" uid="uid://cl5tijr2uscnm" path="res://Scenes/Foods/flour_ingredient.tscn" id="12_ewbju"]
-[ext_resource type="Texture2D" uid="uid://vofh8ufo6dhq" path="res://Assets/UIs/Icons/BookClosed.png" id="12_rfjv2"]
+[ext_resource type="Texture2D" uid="uid://clupeeumdujh3" path="res://Assets/UIs/Icons/BookClosed.png" id="12_rfjv2"]
 [ext_resource type="PackedScene" uid="uid://b6cma1n8sqrma" path="res://Scenes/UIs/day_and_night_panel.tscn" id="18_85qyi"]
 [ext_resource type="PackedScene" uid="uid://df3bbhcu7xa72" path="res://Scenes/Cookware/trash_can.tscn" id="18_iivbl"]
 [ext_resource type="PackedScene" uid="uid://uka2taloql1m" path="res://Scenes/Foods/crystal_ingredient.tscn" id="19_iivbl"]
 [ext_resource type="PackedScene" uid="uid://dx75xyf8o71ua" path="res://Scenes/Cookware/fridge.tscn" id="20_7nbq1"]
+[ext_resource type="PackedScene" uid="uid://dmn72o7dd8mqg" path="res://Scenes/Cookware/carrot_bowl.tscn" id="20_exi56"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m01v1"]
 size = Vector2(20, 26.315807)
@@ -117,7 +118,10 @@ text = "Counter"
 position = Vector2(296, 440)
 
 [node name="CrystalIngredient" parent="." unique_id=725578341 instance=ExtResource("19_iivbl")]
-position = Vector2(152, 120)
+position = Vector2(144, 128)
+
+[node name="carrot bowl" parent="." unique_id=615555002 instance=ExtResource("20_exi56")]
+position = Vector2(1008, 296)
 
 [connection signal="pressed" from="RecipeMenuButton" to="." method="_on_recipe_menu_button_pressed"]
 [connection signal="pressed" from="ToCounterButton" to="." method="_on_to_counter_button_pressed"]
