@@ -11,3 +11,5 @@ res://Scenes/Cookware/blueberry_container.tscn
 res://Scripts/Cookware/blueberry_container.gd
 res://Scenes/Cookware/dogbowl.tscn
 res://Scripts/Cookware/dogbowl.gd
+res://Dialogic/Timelines/Kitsune/kitsune_right.dtl
+res://Dialogic/Characters/character_test.dch
