@@ -55,20 +55,23 @@ position = Vector2(575, 434.99997)
 scale = Vector2(0.35853642, 0.35853642)
 
 [node name="Fridge" parent="." unique_id=2137048956 instance=ExtResource("20_7nbq1")]
-position = Vector2(158, 365)
+position = Vector2(240, 367.99997)
 scale = Vector2(1.3345473, 1.3345473)
 
 [node name="dogbowl" parent="." unique_id=1063237458 instance=ExtResource("8_exi56")]
-position = Vector2(901, 481.00003)
+position = Vector2(888.00006, 477.00003)
 scale = Vector2(3.9210176, 3.9210176)
 
 [node name="strawberry container" parent="." unique_id=1636272193 instance=ExtResource("8_iivbl")]
-position = Vector2(810, 323)
+position = Vector2(810, 323.00003)
 scale = Vector2(2.947136, 2.947136)
 
 [node name="blueberry container" parent="." unique_id=1870163691 instance=ExtResource("9_7nbq1")]
 position = Vector2(881, 329)
 scale = Vector2(0.3197342, 0.3197342)
+
+[node name="carrot bowl" parent="." unique_id=615555002 instance=ExtResource("20_exi56")]
+position = Vector2(1010, 293)
 
 [node name="applebowl" parent="." unique_id=1348212007 instance=ExtResource("7_iivbl")]
 position = Vector2(221, 138.00002)
@@ -115,13 +118,10 @@ text = "Counter"
 [node name="DayAndNightPanel" parent="." unique_id=164352154 instance=ExtResource("18_85qyi")]
 
 [node name="TrashCan" parent="." unique_id=749945432 instance=ExtResource("18_iivbl")]
-position = Vector2(296, 440)
+position = Vector2(80, 456)
 
 [node name="CrystalIngredient" parent="." unique_id=725578341 instance=ExtResource("19_iivbl")]
 position = Vector2(144, 128)
-
-[node name="carrot bowl" parent="." unique_id=615555002 instance=ExtResource("20_exi56")]
-position = Vector2(1008, 296)
 
 [connection signal="pressed" from="RecipeMenuButton" to="." method="_on_recipe_menu_button_pressed"]
 [connection signal="pressed" from="ToCounterButton" to="." method="_on_to_counter_button_pressed"]

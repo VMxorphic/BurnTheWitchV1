@@ -10,3 +10,6 @@ res://Scripts/Cookware/carrot_bowl.gd
 res://Scenes/Cookware/carrot_bowl.tscn
 res://Scenes/game.tscn
 res://Scripts/global.gd
+res://Scripts/Customers/charatcer_test_greeting.gd
+res://Scenes/Customers/customer_base.tscn
+res://Scenes/Cookware/window.tscn
