@@ -3,20 +3,21 @@
 [ext_resource type="Script" uid="uid://bbv1dpmjgcwro" path="res://Scripts/UIs/gamecode.gd" id="1_rku1e"]
 [ext_resource type="Texture2D" uid="uid://ja1ltksrmaap" path="res://Assets/Scenes/Kitchen/kitchenbackground.png" id="2_85qyi"]
 [ext_resource type="Texture2D" uid="uid://d4avbqooudcd2" path="res://Assets/Scenes/Front counter/frontcounter_foreground.png" id="2_ewbju"]
-[ext_resource type="PackedScene" uid="uid://bfbwvdvjduf7k" path="res://Scenes/Foods/apple_ingredient.tscn" id="2_lx5s4"]
 [ext_resource type="PackedScene" uid="uid://l8vuyx8y6t18" path="res://Scenes/Foods/carrot_ingredient.tscn" id="5_pc4w8"]
 [ext_resource type="PackedScene" uid="uid://41bcqtsb28kt" path="res://Scenes/UIs/pause_menu.tscn" id="5_wowpa"]
 [ext_resource type="PackedScene" uid="uid://dwacipi1646lq" path="res://Scenes/Cookware/Pot.tscn" id="6_oqhix"]
 [ext_resource type="PackedScene" uid="uid://bvmr2t23ts1q3" path="res://Scenes/UIs/pop_up_recipe.tscn" id="7_5hnu0"]
+[ext_resource type="PackedScene" uid="uid://cb3xlfuost5y" path="res://Scenes/Cookware/apple_bowl.tscn" id="7_iivbl"]
+[ext_resource type="PackedScene" uid="uid://b4aijligcfm3c" path="res://Scenes/Cookware/dogbowl.tscn" id="8_exi56"]
+[ext_resource type="PackedScene" uid="uid://crqcrsioamlg" path="res://Scenes/Cookware/strawberry_container.tscn" id="8_iivbl"]
+[ext_resource type="PackedScene" uid="uid://lnhp12hvom4y" path="res://Scenes/Cookware/blueberry_container.tscn" id="9_7nbq1"]
 [ext_resource type="PackedScene" uid="uid://d34awfboc723l" path="res://Scenes/Cookware/shelf.tscn" id="9_h4fw4"]
-[ext_resource type="PackedScene" uid="uid://k0aj3bsu7o33" path="res://Scenes/Foods/strawberry_ingredient.tscn" id="10_1phco"]
-[ext_resource type="PackedScene" uid="uid://cyqoete64hk4p" path="res://Scenes/Foods/tofu_ingredient.tscn" id="10_ldgsr"]
 [ext_resource type="PackedScene" uid="uid://bbkp0jvrw605q" path="res://Scenes/Cookware/window.tscn" id="11_1phco"]
 [ext_resource type="PackedScene" uid="uid://cl5tijr2uscnm" path="res://Scenes/Foods/flour_ingredient.tscn" id="12_ewbju"]
 [ext_resource type="Texture2D" uid="uid://vofh8ufo6dhq" path="res://Assets/UIs/Icons/BookClosed.png" id="12_rfjv2"]
-[ext_resource type="PackedScene" uid="uid://l5es74krredl" path="res://Scenes/Foods/bluebery_ingredient.tscn" id="14_1phco"]
-[ext_resource type="PackedScene" uid="uid://bhpxfq1fynrua" path="res://Scenes/Foods/dog_treat_ingredient.tscn" id="15_nb51f"]
+[ext_resource type="PackedScene" uid="uid://b6cma1n8sqrma" path="res://Scenes/UIs/day_and_night_panel.tscn" id="18_85qyi"]
 [ext_resource type="PackedScene" uid="uid://df3bbhcu7xa72" path="res://Scenes/Cookware/trash_can.tscn" id="18_iivbl"]
+[ext_resource type="PackedScene" uid="uid://uka2taloql1m" path="res://Scenes/Foods/crystal_ingredient.tscn" id="19_iivbl"]
 [ext_resource type="PackedScene" uid="uid://dx75xyf8o71ua" path="res://Scenes/Cookware/fridge.tscn" id="20_7nbq1"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_m01v1"]
@@ -30,12 +31,11 @@ position = Vector2(572, 329)
 texture = ExtResource("2_85qyi")
 
 [node name="overlay" type="Sprite2D" parent="." unique_id=1594960295]
-position = Vector2(576, 344)
-scale = Vector2(1.0538015, 1.0538015)
+position = Vector2(573, 326)
 texture = ExtResource("2_ewbju")
 
 [node name="Table" type="StaticBody2D" parent="." unique_id=272774852]
-position = Vector2(576, 688)
+position = Vector2(576, 657.00006)
 scale = Vector2(57.56, 2.28)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Table" unique_id=544312426]
@@ -43,7 +43,7 @@ position = Vector2(0, -54.824593)
 shape = SubResource("RectangleShape2D_m01v1")
 
 [node name="FlourIngredient" parent="." unique_id=1346990998 instance=ExtResource("12_ewbju")]
-position = Vector2(304, 488)
+position = Vector2(1047, 448)
 
 [node name="Window" parent="." unique_id=1355458674 instance=ExtResource("11_1phco")]
 position = Vector2(904, 224)
@@ -54,31 +54,31 @@ position = Vector2(575, 434.99997)
 scale = Vector2(0.35853642, 0.35853642)
 
 [node name="Fridge" parent="." unique_id=2137048956 instance=ExtResource("20_7nbq1")]
-position = Vector2(120, 415.99997)
+position = Vector2(158, 365)
 scale = Vector2(1.3345473, 1.3345473)
+
+[node name="dogbowl" parent="." unique_id=1063237458 instance=ExtResource("8_exi56")]
+position = Vector2(901, 481.00003)
+scale = Vector2(3.9210176, 3.9210176)
+
+[node name="strawberry container" parent="." unique_id=1636272193 instance=ExtResource("8_iivbl")]
+position = Vector2(810, 323)
+scale = Vector2(2.947136, 2.947136)
+
+[node name="blueberry container" parent="." unique_id=1870163691 instance=ExtResource("9_7nbq1")]
+position = Vector2(881, 329)
+scale = Vector2(0.3197342, 0.3197342)
+
+[node name="applebowl" parent="." unique_id=1348212007 instance=ExtResource("7_iivbl")]
+position = Vector2(221, 138.00002)
+scale = Vector2(0.53809947, 0.53809947)
 
 [node name="shelf" parent="." unique_id=1166927236 instance=ExtResource("9_h4fw4")]
 position = Vector2(161.00002, 186.00002)
 scale = Vector2(0.91001344, 0.91001344)
 
-[node name="AppleIngredient" parent="." unique_id=1191235726 instance=ExtResource("2_lx5s4")]
-position = Vector2(232, 120)
-
 [node name="CarrotIngredient" parent="." unique_id=852776623 instance=ExtResource("5_pc4w8")]
 position = Vector2(384, 216)
-
-[node name="TofuIngredient" parent="." unique_id=725578341 instance=ExtResource("10_ldgsr")]
-position = Vector2(152, 120)
-
-[node name="StrawberryIngredient" parent="." unique_id=920160086 instance=ExtResource("10_1phco")]
-position = Vector2(400, 240)
-
-[node name="BluberryIngredient" parent="." unique_id=363484252 instance=ExtResource("14_1phco")]
-position = Vector2(325, 87)
-mass = 5.0
-
-[node name="DogTreatIngredient" parent="." unique_id=1650936889 instance=ExtResource("15_nb51f")]
-position = Vector2(344, 417)
 
 [node name="PopUpRecipe" parent="." unique_id=1445618864 instance=ExtResource("7_5hnu0")]
 anchors_preset = 0
@@ -111,8 +111,13 @@ offset_right = 169.0
 offset_bottom = 633.0
 text = "Counter"
 
+[node name="DayAndNightPanel" parent="." unique_id=164352154 instance=ExtResource("18_85qyi")]
+
 [node name="TrashCan" parent="." unique_id=749945432 instance=ExtResource("18_iivbl")]
-position = Vector2(1088, 496)
+position = Vector2(296, 440)
+
+[node name="CrystalIngredient" parent="." unique_id=725578341 instance=ExtResource("19_iivbl")]
+position = Vector2(152, 120)
 
 [connection signal="pressed" from="RecipeMenuButton" to="." method="_on_recipe_menu_button_pressed"]
 [connection signal="pressed" from="ToCounterButton" to="." method="_on_to_counter_button_pressed"]

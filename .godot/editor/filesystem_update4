@@ -1,3 +1,12 @@
 res://Scenes/UIs/pop_up_recipe.tscn
 res://Dialogic/Styles/text_bubble_style.tres
 res://Scripts/UIs/pop_up_recipe.gd
+res://Dialogic/Characters/character_test.dch
+res://Scenes/UIs/recipes_menu.tscn
+res://Scenes/Completed Recipes/basic_milkshake.tscn
+res://Scripts/UIs/recipes_menu.gd
+res://Scenes/Foods/crystal_ingredient.tscn
+res://Scenes/game.tscn
+res://Scenes/Completed Recipes/crystal_milkshake.tscn
+res://Scripts/Completed Recipes/crystal_milkshake.gd
+res://Scripts/global.gd
