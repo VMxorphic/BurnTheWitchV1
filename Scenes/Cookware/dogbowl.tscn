@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://b4aijligcfm3c"]
+
+[ext_resource type="Script" uid="uid://dvhvq4n3o1pdl" path="res://Scripts/Cookware/dogbowl.gd" id="1_h0cf0"]
+[ext_resource type="Texture2D" uid="uid://bnphuofjvvyt4" path="res://Assets/Foods/dogbowl.png" id="1_v3hjq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sdo8n"]
+size = Vector2(19.609776, 12.98523)
+
+[node name="dogbowl" type="StaticBody2D" unique_id=1063237458]
+script = ExtResource("1_h0cf0")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1548073201]
+scale = Vector2(0.14134702, 0.14134702)
+texture = ExtResource("1_v3hjq")
+region_enabled = true
+region_rect = Rect2(734.90625, 247.5585, 182.38916, 127.58392)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1040410512]
+position = Vector2(-0.2474337, 0.99999994)
+rotation = 3.1415925
+scale = Vector2(0.94314516, -0.7701064)
+shape = SubResource("RectangleShape2D_sdo8n")
+disabled = true
+
+[node name="Button" type="Button" parent="." unique_id=1791939831]
+modulate = Color(1, 1, 1, 0)
+offset_left = -10.000001
+offset_top = -4.0
+offset_right = -2.000001
+offset_bottom = 4.0
+scale = Vector2(2.454287, 1.3886935)
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

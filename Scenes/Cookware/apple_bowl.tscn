@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://cb3xlfuost5y"]
+
+[ext_resource type="Texture2D" uid="uid://bqj64knmcq6wy" path="res://Assets/Foods/applebowl.png" id="1_2mkw1"]
+[ext_resource type="Script" uid="uid://cpkifa1x0334f" path="res://Scripts/Cookware/applebowl.gd" id="1_if7we"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sdo8n"]
+size = Vector2(4.410693, 0.22267792)
+
+[node name="applebowl" type="StaticBody2D" unique_id=1348212007]
+script = ExtResource("1_if7we")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=870525259]
+texture = ExtResource("1_2mkw1")
+region_enabled = true
+region_rect = Rect2(361.6354, 276.82684, 144.47913, 123.42804)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1182551630]
+position = Vector2(-1.5000032, 5.8897104)
+rotation = 3.1415925
+scale = Vector2(27.477566, 331.32797)
+shape = SubResource("RectangleShape2D_sdo8n")
+disabled = true
+
+[node name="Button" type="Button" parent="." unique_id=1282335804]
+modulate = Color(1, 1, 1, 0)
+offset_left = -51.0
+offset_top = 43.000004
+offset_right = -43.0
+offset_bottom = 51.000004
+scale = Vector2(12.553578, -8.891062)
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

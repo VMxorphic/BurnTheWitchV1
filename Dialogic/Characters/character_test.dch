@@ -12,9 +12,9 @@
 },
 &"default_portrait": "grey_angry",
 &"description": "",
-&"display_name": "test",
+&"display_name": "Customer",
 &"mirror": false,
-&"nicknames": ["test"],
+&"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {
 "grey_angry": {
