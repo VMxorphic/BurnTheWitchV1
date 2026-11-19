@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://lnhp12hvom4y"]
+
+[ext_resource type="Script" uid="uid://dbjplga4cisul" path="res://Scripts/Cookware/blueberry_container.gd" id="1_atapl"]
+[ext_resource type="Texture2D" uid="uid://d355lh8xdphr8" path="res://Assets/Foods/blueberry container.png" id="1_qnddc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sdo8n"]
+size = Vector2(177, 130)
+
+[node name="blueberry container" type="StaticBody2D" unique_id=1870163691]
+script = ExtResource("1_atapl")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=4452008]
+texture = ExtResource("1_qnddc")
+region_enabled = true
+region_rect = Rect2(482.5573, 196.89046, 229.27753, 185.33934)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1922480892]
+position = Vector2(0.5, 12)
+shape = SubResource("RectangleShape2D_sdo8n")
+disabled = true
+
+[node name="Button" type="Button" parent="." unique_id=1272160327]
+modulate = Color(1, 1, 1, 0.007843138)
+offset_left = -89.00001
+offset_top = -34.0
+offset_right = -81.00001
+offset_bottom = -26.0
+scale = Vector2(22.18046, 13.796312)
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

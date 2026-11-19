@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://crqcrsioamlg"]
+
+[ext_resource type="Texture2D" uid="uid://b81cutp1vqw0e" path="res://Assets/Foods/strawberry container.png" id="1_1awx5"]
+[ext_resource type="Script" uid="uid://clgtedkaebsi8" path="res://Scripts/Cookware/strawberry_container.gd" id="1_ewmk7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sdo8n"]
+size = Vector2(20, 28.487844)
+
+[node name="strawberry container" type="StaticBody2D" unique_id=1636272193]
+script = ExtResource("1_ewmk7")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1289464401]
+scale = Vector2(0.10183892, 0.10183892)
+texture = ExtResource("1_1awx5")
+region_enabled = true
+region_rect = Rect2(188.28333, 151.91255, 230.93286, 228.81377)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1111289665]
+position = Vector2(0, 2)
+rotation = 3.1415925
+scale = Vector2(0.9598566, -0.5857672)
+shape = SubResource("RectangleShape2D_sdo8n")
+disabled = true
+
+[node name="Button" type="Button" parent="." unique_id=381108070]
+modulate = Color(1, 1, 1, 0)
+offset_left = -9.0
+offset_top = -3.0
+offset_right = -1.0
+offset_bottom = 5.0
+scale = Vector2(2.3432782, 1.6217426)
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
