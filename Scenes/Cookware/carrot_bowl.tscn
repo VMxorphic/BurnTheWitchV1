@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://dmn72o7dd8mqg"]
+
+[ext_resource type="Script" uid="uid://brb84g8ey781i" path="res://Scripts/Cookware/carrot_bowl.gd" id="1_3vu2r"]
+[ext_resource type="Texture2D" uid="uid://dyl6hods07jsf" path="res://Assets/Foods/carrotbowl.png" id="2_jlq4n"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sdo8n"]
+size = Vector2(77, 77)
+
+[node name="carrot bowl" type="StaticBody2D" unique_id=615555002]
+script = ExtResource("1_3vu2r")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=144961252]
+texture = ExtResource("2_jlq4n")
+region_enabled = true
+region_rect = Rect2(831.8439, 112.99728, 143.99219, 151.4144)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1944655576]
+position = Vector2(-6.5, 22.5)
+shape = SubResource("RectangleShape2D_sdo8n")
+disabled = true
+
+[node name="Button" type="Button" parent="." unique_id=1027743902]
+modulate = Color(1, 1, 1, 0)
+offset_left = -48.0
+offset_top = -16.0
+offset_right = 32.0
+offset_bottom = 48.0
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
