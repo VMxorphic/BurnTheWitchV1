@@ -1,6 +1,10 @@
 [gd_scene format=3 uid="uid://df3bbhcu7xa72"]
 
 [ext_resource type="Script" uid="uid://bwahtc18s8yp3" path="res://Scripts/Cookware/trash_can.gd" id="1_e2bvu"]
+[ext_resource type="Texture2D" uid="uid://c0opuoxty2jpv" path="res://Assets/Cookware/Trashcan.png" id="2_fs88a"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nuxsd"]
+size = Vector2(55.59745, 69.099884)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_whp10"]
 size = Vector2(20, 66)
@@ -9,14 +13,20 @@ size = Vector2(20, 66)
 script = ExtResource("1_e2bvu")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1390165896]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=778400042]
-
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="." unique_id=2853299]
+position = Vector2(0, 15.999999)
+scale = Vector2(0.08747677, 0.08747677)
+texture = ExtResource("2_fs88a")
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="." unique_id=175342163]
+position = Vector2(-1.888753, 14.49318)
+rotation = -0.016564142
+scale = Vector2(0.9999998, 0.9999998)
+shape = SubResource("RectangleShape2D_nuxsd")
 
 [node name="Area2D" type="Area2D" parent="." unique_id=224505184]
+position = Vector2(17, -13.000002)
+rotation = 1.5707964
+scale = Vector2(0.68382084, 0.84000003)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=2034163865]
 position = Vector2(0, 23)

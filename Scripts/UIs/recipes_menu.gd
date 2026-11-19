@@ -2,6 +2,7 @@ extends Control
 
 
 @onready var recipes := {
+	
 	"Blueberry Milkshake": {"button": $ScrollContainer/Recipe/MilkShakeBlueberry, "label": $ScrollContainer/Recipe/MilkShakeBlueberryLabel},
 	"Apple Milkshake": {"button": $ScrollContainer/Recipe/MilkShakeApple, "label": $ScrollContainer/Recipe/MilkShakeAppleLabel},
 	"Strawberry Milkshake":{"button": $ScrollContainer/Recipe/MilkShakeStrawberry,"label": $ScrollContainer/Recipe/MilkShakeStrawberryLabel},

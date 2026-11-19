@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://uka2taloql1m"]
+
+[ext_resource type="Script" uid="uid://dhgfvmfj1guxy" path="res://Scripts/Foods/crystal_ingredient.gd" id="1_nuxsd"]
+[ext_resource type="Texture2D" uid="uid://cwraoj27pejsy" path="res://Assets/Foods/manyapples.png" id="2_mhr7g"]
+
+[node name="CrystalIngredient" type="RigidBody2D" unique_id=725578341 groups=["Ingredients"]]
+mass = 5.0
+gravity_scale = 5.505
+continuous_cd = 1
+contact_monitor = true
+max_contacts_reported = 4
+script = ExtResource("1_nuxsd")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=630760412]
+position = Vector2(-3, 4)
+scale = Vector2(0.06885311, 0.06885311)
+texture = ExtResource("2_mhr7g")
+region_enabled = true
+region_rect = Rect2(782, 846, 591, 574)
+
+[node name="Button" type="Button" parent="." unique_id=982790656]
+modulate = Color(1, 1, 1, 0)
+offset_left = -23.0
+offset_top = -17.0
+offset_right = -15.0
+offset_bottom = -9.0
+scale = Vector2(4.6374416, 4.7833185)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1867267819]
+position = Vector2(-4, 7.0000005)
+scale = Vector2(1.6605054, 1.6605054)
+polygon = PackedVector2Array(0.5007745, 9.013941, -3.5054216, 9.013941, -9.013941, 4.006196, -9.514715, -5.007745, -5.5085196, -8.513166, 0, -7.511617, 6.5100684, -8.513166, 11.017038, -5.007745, 9.514715, 4.006196, 5.007745, 9.514715)
+
+[connection signal="button_down" from="Button" to="." method="_on_button_button_down"]
+[connection signal="button_up" from="Button" to="." method="_on_button_button_up"]

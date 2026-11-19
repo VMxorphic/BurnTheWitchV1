@@ -14,7 +14,7 @@ var recipes:={
 	
 #Cakes(9)
 	"Blueberry Cake": preload("res://Assets/Cookware/cutting_board.png"),
-	"Strawberry Cake": preload("res://Assets/Cookware/cutting_board.png"),
+	"Strawberry Cake": preload("res://Assets/Foods/StrawberryCake.png"),
 	"Apple Cake": preload("res://Assets/Cookware/cutting_board.png"),
 	"Bloody Cake": preload("res://Assets/Cookware/cutting_board.png"),
 	"Fish Cake": preload("res://Assets/Cookware/cutting_board.png"),

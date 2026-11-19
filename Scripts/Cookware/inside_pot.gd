@@ -27,7 +27,7 @@ const RECIPES: Dictionary={
 ["MilkIngredient","FlourIngredient", "EggIngredient","AppleIngredient"]: "Apple Cake",
 ["MilkIngredient","FlourIngredient", "EggIngredient","EyeIngredient"]: "Bloody Cake",
 ["MilkIngredient","FlourIngredient", "EggIngredient","FishIngredient"]: "Fish Cake",
-["MilkIngredient","FlourIngredient", "EggIngredient","DogTreatIngredient"]: "Buscuit Cake",
+["MilkIngredient","FlourIngredient", "EggIngredient","DogTreatIngredient"]: "Biscuit Cake",
 ["MilkIngredient","FlourIngredient", "EggIngredient","CrystalIngredient"]: "Crystal Cake",
 ["MilkIngredient","FlourIngredient", "EggIngredient"]: "Basic Cake",
 ["MilkIngredient","FlourIngredient", "EggIngredient","CarrotIngredient"]: "Carrot Cake",
