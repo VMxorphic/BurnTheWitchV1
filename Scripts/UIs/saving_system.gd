@@ -28,8 +28,8 @@ func _process(delta: float):
  
  
 # Func for money_amount_var 1#----------------------------------------------------
-signal money(food_found: String)
-var money_amount: Array[String]= []
+##signal money(food_found: String)
+##var money_amount: Array[String]= []
  
 #Func for days_var_2#--------------------------------------------------------------------
 #func _on_day_timer_timeout() -> void:
@@ -68,9 +68,7 @@ func load_data():
 		print("day passed is ",variable1)
 		print("time is ",variable2)
 		
-		#variable3 = file.get_var(variable3)
 	else:
 		print("No Data Saved...")
 		variable1 = 0
 		variable2 = 0
-		#variable3 = 0
