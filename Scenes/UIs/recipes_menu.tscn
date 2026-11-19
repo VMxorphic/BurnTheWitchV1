@@ -131,7 +131,8 @@ size_flags_vertical = 4
 texture_normal = ExtResource("8_6c5aj")
 stretch_mode = 0
 
-[node name="StrawberryCake" type="TextureButton" parent="ScrollContainer/Recipe" unique_id=1779568419]
+[node name="MilkShakeBasic" type="TextureButton" parent="ScrollContainer/Recipe" unique_id=1005029086]
+custom_minimum_size = Vector2(128, 128)
 custom_maximum_size = Vector2(128, 128)
 layout_mode = 2
 size_flags_horizontal = 4
@@ -139,7 +140,7 @@ size_flags_vertical = 4
 texture_normal = ExtResource("1_og7og")
 stretch_mode = 0
 
-[node name="BlueberryCake" type="TextureButton" parent="ScrollContainer/Recipe" unique_id=964385095]
+[node name="StrawberryCake" type="TextureButton" parent="ScrollContainer/Recipe" unique_id=1779568419]
 custom_maximum_size = Vector2(128, 128)
 layout_mode = 2
 size_flags_horizontal = 4
@@ -153,7 +154,7 @@ size_flags_horizontal = 4
 text = "???"
 horizontal_alignment = 1
 
-[node name="StrawberryCakeLabel" type="Label" parent="ScrollContainer/Recipe" unique_id=1193596076]
+[node name="MilkshakeBasicLabel" type="Label" parent="ScrollContainer/Recipe" unique_id=262088885]
 layout_mode = 2
 size_flags_horizontal = 4
 text = "???"
@@ -249,11 +250,13 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 texture_normal = ExtResource("1_og7og")
 
-[node name="MilkShakeBasic" type="TextureButton" parent="ScrollContainer/Recipe" unique_id=1005029086]
+[node name="BlueberryCake" type="TextureButton" parent="ScrollContainer/Recipe" unique_id=964385095]
+custom_maximum_size = Vector2(128, 128)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 texture_normal = ExtResource("1_og7og")
+stretch_mode = 0
 
 [node name="BadPudding" type="TextureButton" parent="ScrollContainer/Recipe" unique_id=564892062]
 layout_mode = 2
@@ -261,13 +264,13 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 texture_normal = ExtResource("1_og7og")
 
-[node name="CarrotCakeLabel" type="Label" parent="ScrollContainer/Recipe" unique_id=206747627]
+[node name="StrawberryCakeLabel" type="Label" parent="ScrollContainer/Recipe" unique_id=1193596076]
 layout_mode = 2
 size_flags_horizontal = 4
 text = "???"
 horizontal_alignment = 1
 
-[node name="MilkshakeBasicLabel" type="Label" parent="ScrollContainer/Recipe" unique_id=262088885]
+[node name="CarrotCakeLabel" type="Label" parent="ScrollContainer/Recipe" unique_id=206747627]
 layout_mode = 2
 size_flags_horizontal = 4
 text = "???"

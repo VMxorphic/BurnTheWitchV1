@@ -24,7 +24,7 @@ const completed_recipe_scenes: Dictionary={
 "Bloodshot Eye Milkshake": "res://Scenes/Completed Recipes/bloodshot_eye_milkshake.tscn",
 "Fish Milkshake": "res://Scenes/Completed Recipes/fish_milkshake.tscn",
 "Biscuit Milkshake": "res://Scenes/Completed Recipes/biscuit_milkshake.tscn",
-"Crystal Milkshake": "res://Scenes/Completed Recipes/biscuit_milkshake.tscn",
+"Crystal Milkshake": "res://Scenes/Completed Recipes/crystal_milkshake.tscn",
 "Basic Milkshake": "res://Scenes/Completed Recipes/basic_milkshake.tscn",
 
 #All Cakes (9)

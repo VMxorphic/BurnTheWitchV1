@@ -9,8 +9,11 @@ var recipes:={
 	"Blueberry Milkshake": preload("res://Assets/Foods/BlueberryMilkshake.png"),
 	"Strawberry Milkshake": preload("res://Assets/Foods/StrawberryMilkshake.png"),
 	"Bloodshot Eye Milkshake": preload("res://Assets/Foods/BloodshotEyeMilkshake.png"),
+	"Crystal Milkshake": preload("res://Assets/Foods/CrystalMilkshake.png"),
 	"Fish Milkshake": preload("res://Assets/Foods/FishMilkshake.png"),
 	"Biscuit Milkshake": preload("res://Assets/Foods/DogTreatMilkshake.png"),
+	"Basic Milkshake": preload("res://Assets/Foods/BasicMilkshake.png"),
+	
 	
 #Cakes(9)
 	"Blueberry Cake": preload("res://Assets/Cookware/cutting_board.png"),

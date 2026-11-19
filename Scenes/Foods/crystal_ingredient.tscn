@@ -13,7 +13,7 @@ script = ExtResource("1_nuxsd")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=630760412]
 position = Vector2(-3, 4)
-scale = Vector2(0.06885311, 0.06885311)
+scale = Vector2(0.066664904, 0.03478953)
 texture = ExtResource("2_mhr7g")
 region_enabled = true
 region_rect = Rect2(782, 846, 591, 574)

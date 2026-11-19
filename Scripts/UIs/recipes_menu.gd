@@ -30,9 +30,9 @@ var images_unlocked:={
 	"Strawberry Milkshake":preload("res://Assets/Foods/StrawberryMilkshake.png"),
 	"Bloodshot Eye Milkshake":preload("res://Assets/Foods/BloodshotEyeMilkshake.png"),
 	"Fish Milkshake":preload("res://Assets/Foods/FishMilkshake.png"),
-	"Crystal Milkshake":preload("res://Assets/Foods/DogTreatMilkshake.png"),
+	"Crystal Milkshake":preload("res://Assets/Foods/CrystalMilkshake.png"),
 	"Biscuit Milkshake":preload("res://Assets/Foods/DogTreatMilkshake.png"),
-	"Basic Milkshake":preload("res://Assets/Foods/DogTreatMilkshake.png"),
+	"Basic Milkshake":preload("res://Assets/Foods/BasicMilkshake.png"),
 	
 	
 	"Blueberry Cake": preload("res://Assets/Cookware/cutting_board.png"),

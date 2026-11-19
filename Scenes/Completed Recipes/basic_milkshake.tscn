@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dcuf5lwlmv1o"]
 
 [ext_resource type="Script" uid="uid://ctxfm86b43vbj" path="res://Scripts/Completed Recipes/basic_milkshake.gd" id="1_gowmk"]
-[ext_resource type="Texture2D" uid="uid://c3hsfpuxrh68a" path="res://Assets/Foods/StrawberryMilkshake.png" id="2_m7e8v"]
+[ext_resource type="Texture2D" uid="uid://blysy3wi8dyw" path="res://Assets/Foods/BasicMilkshake.png" id="2_gowmk"]
 
 [node name="Basic Milkshake" type="RigidBody2D" unique_id=1858936123 groups=["completed_recipes"]]
 mass = 5.0
@@ -14,7 +14,7 @@ script = ExtResource("1_gowmk")
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=630760412]
 position = Vector2(-3.8146973e-06, 8)
 scale = Vector2(0.06403363, 0.06240208)
-texture = ExtResource("2_m7e8v")
+texture = ExtResource("2_gowmk")
 region_rect = Rect2(2376, 104, 1208, 1016)
 
 [node name="Button" type="Button" parent="." unique_id=982790656]
