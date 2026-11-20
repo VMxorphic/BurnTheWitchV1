@@ -27,7 +27,7 @@ Link: https://xorphic.itch.io/burnthewitch
 - Right now there is no way of saving so leaving means losing any progress.  
 - Images that use Godot icon have no Asset assign to them yet.
 ## License  
-This project is licensed under the --- License. See LICENSE.md file for details  
+This project is licensed under the MIT License. See LICENSE.md file for details  
 
 ## Other Info:
 This game is made by [whatwendi](github.com/whatwendi), [Not-Da-Ramen-netsu](https://github.com/Netsu-Codes), and [Xorphic](https://github.com/3amstudiosgames)  
