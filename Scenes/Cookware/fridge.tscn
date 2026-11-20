@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://b53auvo3jk1uc" path="res://Assets/Cookware/Fridge.png" id="1_8wli0"]
 [ext_resource type="Script" uid="uid://b0qxl6blrfgio" path="res://Scripts/Cookware/fridge.gd" id="1_itgcf"]
+[ext_resource type="PackedScene" uid="uid://bxsdtcc2qn45m" path="res://Scenes/Cookware/crystal_bowl.tscn" id="3_gng5h"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_of5tc"]
 size = Vector2(144, 192)
@@ -49,6 +50,10 @@ offset_top = 47.0
 offset_right = -37.999996
 offset_bottom = 55.0
 scale = Vector2(3.462861, 5.381904)
+
+[node name="crystal bowl" parent="." unique_id=985426870 instance=ExtResource("3_gng5h")]
+position = Vector2(29.000002, 63)
+scale = Vector2(0.3174763, 0.3174763)
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]

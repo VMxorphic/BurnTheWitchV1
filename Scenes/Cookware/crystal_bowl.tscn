@@ -1,22 +1,13 @@
 [gd_scene format=3 uid="uid://bxsdtcc2qn45m"]
 
 [ext_resource type="Script" uid="uid://bebo32fwjk4ho" path="res://Scripts/Cookware/crystal_bowl.gd" id="1_d6yop"]
-[ext_resource type="Texture2D" uid="uid://dj57y3116o2mt" path="res://icon.svg" id="1_idh1o"]
+[ext_resource type="Texture2D" uid="uid://bgy5omsmdlmxr" path="res://Assets/Foods/CrystalIngredient.png" id="2_d6yop"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_sdo8n"]
 size = Vector2(50.518997, 17.696629)
 
 [node name="crystal bowl" type="StaticBody2D" unique_id=985426870]
 script = ExtResource("1_d6yop")
-
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2119214035]
-texture = ExtResource("1_idh1o")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=949845646]
-position = Vector2(-0.5216446, 0)
-scale = Vector2(2.513049, 7.12)
-shape = SubResource("RectangleShape2D_sdo8n")
-disabled = true
 
 [node name="Button" type="Button" parent="." unique_id=886178728]
 modulate = Color(1, 1, 1, 0)
@@ -25,5 +16,15 @@ offset_top = -64.0
 offset_right = -56.0
 offset_bottom = -56.0
 scale = Vector2(16.038284, 16.193962)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2119214035]
+scale = Vector2(0.18873358, 0.18873358)
+texture = ExtResource("2_d6yop")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=949845646]
+position = Vector2(-0.5216446, 0)
+scale = Vector2(2.513049, 7.12)
+shape = SubResource("RectangleShape2D_sdo8n")
+disabled = true
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

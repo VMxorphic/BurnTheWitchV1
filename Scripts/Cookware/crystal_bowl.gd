@@ -1,10 +1,10 @@
 extends StaticBody2D
 
-#crystal bowl
 
 
 func _on_button_pressed() -> void:
 	spawn_crystal()
+	print("Spawn Cystal")
 
 
 func spawn_crystal()-> void:

@@ -58,10 +58,8 @@ theme_override_constants/v_separation = 30
 columns = 3
 
 [node name="MilkShakeBlueberry" type="TextureButton" parent="ScrollContainer/MarginContainer/Recipe" unique_id=1971119267]
-custom_minimum_size = Vector2(128, 128)
 custom_maximum_size = Vector2(128, 128)
 layout_mode = 2
-offset_transform_enabled = true
 texture_normal = ExtResource("2_13e1c")
 stretch_mode = 0
 
@@ -343,7 +341,7 @@ custom_maximum_size = Vector2(128, 128)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-texture_normal = ExtResource("17_etafg")
+texture_normal = ExtResource("1_og7og")
 stretch_mode = 0
 
 [node name="StrawberryPuddingLabel" type="Label" parent="ScrollContainer/MarginContainer/Recipe" unique_id=1878860067]
