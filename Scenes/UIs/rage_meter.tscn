@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://4bt4qnxn4vve"]
+
+[ext_resource type="Script" uid="uid://bntg20qxfrl3x" path="res://rage_meter.gd" id="1_kwudd"]
+
+[node name="rage_meter" type="Node2D" unique_id=2066735207]
+script = ExtResource("1_kwudd")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=79167667]
+offset_right = 1190.0
+offset_bottom = 3974.0
