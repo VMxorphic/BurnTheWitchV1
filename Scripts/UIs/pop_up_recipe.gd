@@ -16,15 +16,15 @@ var recipes:={
 	
 	
 #Cakes(9)
-	"Blueberry Cake": preload("res://Assets/Cookware/cutting_board.png"),
+	"Blueberry Cake": preload("res://Assets/Foods/BlueberryCake.png"),
 	"Strawberry Cake": preload("res://Assets/Foods/StrawberryCake.png"),
-	"Apple Cake": preload("res://Assets/Cookware/cutting_board.png"),
-	"Bloody Cake": preload("res://Assets/Cookware/cutting_board.png"),
-	"Fish Cake": preload("res://Assets/Cookware/cutting_board.png"),
-	"Biscuit Cake": preload("res://Assets/Cookware/cutting_board.png"),
-	"Crystal Cake": preload("res://Assets/Cookware/cutting_board.png"),
-	"Basic Cake": preload("res://Assets/Cookware/cutting_board.png"),
-	"Carrot Cake": preload("res://Assets/Cookware/cutting_board.png"),
+	"Apple Cake": preload("res://Assets/Foods/AppleCake.png"),
+	"Bloody Cake": preload("res://Assets/Foods/BloodCake.png"),
+	"Fish Cake": preload("res://Assets/Foods/FishCake.png"),
+	"Biscuit Cake": preload("res://Assets/Foods/BiscuitCake.png"),
+	"Crystal Cake": preload("res://Assets/Foods/CrystalCake.png"),
+	"Basic Cake": preload("res://Assets/Foods/BasicCake.png"),
+	"Carrot Cake": preload("res://Assets/Foods/CarrotCake.png"),
 	
 #Others
 	"Mess": preload("res://Assets/Cookware/Box.png")

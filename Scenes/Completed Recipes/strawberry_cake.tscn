@@ -14,11 +14,6 @@ contact_monitor = true
 max_contacts_reported = 4
 script = ExtResource("1_ruadb")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=630760412]
-scale = Vector2(0.09465861, 0.09465861)
-texture = ExtResource("2_ruadb")
-region_rect = Rect2(2376, 104, 1208, 1016)
-
 [node name="Button" type="Button" parent="." unique_id=982790656]
 modulate = Color(1, 1, 1, 0)
 offset_left = -23.0
@@ -27,7 +22,12 @@ offset_right = -15.0
 offset_bottom = -9.0
 scale = Vector2(16.658113, 17.182117)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=314551017]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1639148068]
+scale = Vector2(0.09465861, 0.09465861)
+texture = ExtResource("2_ruadb")
+region_rect = Rect2(2376, 104, 1208, 1016)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1750033844]
 position = Vector2(0, 2.9999962)
 scale = Vector2(3.6363633, 19.821724)
 shape = SubResource("RectangleShape2D_whp10")
