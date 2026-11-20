@@ -19,7 +19,9 @@ In the game you can move between the front counter and the kitchen. You can serv
 Windows 10+
 ### Installing/Playing
 - You can download the zip file game from Itchi.IO
-- You can also try the game in the Itch.IO website
+- You can also try the game in the Itch.IO website  
+Link: https://xorphic.itch.io/burnthewitch
+
 ## Help / Bugs
 - If Playing in the Itch.IO web do not use any quit buttons.  
 - Right now there is no way of saving so leaving means losing any progress.  
