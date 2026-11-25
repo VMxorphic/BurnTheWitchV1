@@ -1,7 +1,10 @@
-res://Scenes/Foods/crystal_ingredient.tscn
+res://Scenes/Customers/customer_base.tscn
 res://Dialogic/Styles/text_bubble_style.tres
-res://Scripts/Foods/crystal_ingredient.gd
-res://Scenes/game.tscn
-res://Scenes/UIs/recipes_menu.tscn
-res://Scenes/front_counter.tscn
-res://Scenes/Cookware/fridge.tscn
+res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Textbubble/speech_bubble.gdshader
+res://Scripts/Customers/charatcer_test_greeting.gd
+res://Dialogic/Characters/character_test.dch
+res://Dialogic/Timelines/Opossum/opossum_order.dtl
+res://Dialogic/Timelines/Opossum/opossum_restate.dtl
+res://Dialogic/Timelines/Opossum/opossum_right.dtl
+res://Dialogic/Timelines/Opossum/opossum_wrong.dtl
+res://Dialogic/Timelines/Cerberus/cerberus_order.dtl

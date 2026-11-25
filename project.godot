@@ -49,7 +49,11 @@ directories/dtl_directory={
 "kitsune_order": "res://Dialogic/Timelines/Kitsune/kitsune_order.dtl",
 "kitsune_restate": "res://Dialogic/Timelines/Kitsune/kitsune_restate.dtl",
 "kitsune_right": "res://Dialogic/Timelines/Kitsune/kitsune_right.dtl",
-"kitsune_wrong": "res://Dialogic/Timelines/Kitsune/kitsune_wrong.dtl"
+"kitsune_wrong": "res://Dialogic/Timelines/Kitsune/kitsune_wrong.dtl",
+"opossum_order": "res://Dialogic/Timelines/Opossum/opossum_order.dtl",
+"opossum_restate": "res://Dialogic/Timelines/Opossum/opossum_restate.dtl",
+"opossum_right": "res://Dialogic/Timelines/Opossum/opossum_right.dtl",
+"opossum_wrong": "res://Dialogic/Timelines/Opossum/opossum_wrong.dtl"
 }
 layout/style_directory={
 "": "res://Dialogic/Styles/text_bubble_style.tres",
