@@ -20,9 +20,9 @@ anchor_top = 0.432
 anchor_right = 0.16700001
 anchor_bottom = 0.432
 offset_left = -0.38401794
-offset_top = 0.06399536
+offset_top = -103.936005
 offset_right = 751.61597
-offset_bottom = 128.064
+offset_bottom = 222.064
 theme_override_constants/h_separation = 80
 theme_override_constants/v_separation = 70
 columns = 4
@@ -58,6 +58,36 @@ texture_normal = ExtResource("2_udl7t")
 [node name="ObjectDisplay4" type="TextureButton" parent="GridContainer" unique_id=401112171]
 layout_mode = 2
 texture_normal = ExtResource("2_udl7t")
+
+[node name="Label" type="Label" parent="." unique_id=1492565451]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.38900003
+anchor_top = 0.17300001
+anchor_right = 0.38900003
+anchor_bottom = 0.17300001
+offset_left = 7.8719788
+offset_top = -80.104004
+offset_right = 250.87198
+offset_bottom = 15.895996
+theme_override_font_sizes/font_size = 70
+text = "Market"
+
+[node name="ItemBoughtLabel" type="Label" parent="." unique_id=1674904005]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.38900003
+anchor_top = 0.17300001
+anchor_right = 0.38900003
+anchor_bottom = 0.17300001
+offset_left = -72.12802
+offset_top = 439.896
+offset_right = 335.87198
+offset_bottom = 494.896
+theme_override_font_sizes/font_size = 30
+text = "bought: Item"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [connection signal="pressed" from="GridContainer/IngredientDisplay1" to="." method="_on_ingredient_display_1_pressed"]
 [connection signal="pressed" from="GridContainer/IngredientDisplay2" to="." method="_on_ingredient_display_2_pressed"]

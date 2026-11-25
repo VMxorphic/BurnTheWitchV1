@@ -1,7 +1,0 @@
-res://Scenes/Foods/crystal_ingredient.tscn
-res://Dialogic/Styles/text_bubble_style.tres
-res://Scripts/Foods/crystal_ingredient.gd
-res://Scenes/game.tscn
-res://Scenes/UIs/recipes_menu.tscn
-res://Scenes/front_counter.tscn
-res://Scenes/Cookware/fridge.tscn

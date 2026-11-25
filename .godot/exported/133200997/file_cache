@@ -113,27 +113,27 @@ res://addons/dialogic/Modules/Text/settings_text.tscn::97ec25dbd9bdb6bcf60ea8d8a
 res://addons/dialogic/Modules/Variable/variables_editor/variables_editor.tscn::536582f77ff4d2a16d75d09109287d32::1792458119::res://.godot/exported/133200997/export-81d6117e9fbfcc345d9d0dd8f77e3c55-variables_editor.scn
 res://addons/godot_super-wakatime/api_key_prompt.tscn::a6988a5ba43d5aa92a08f216c1db28db::1792458119::res://.godot/exported/133200997/export-cd8705cb5e2533bd79c64579ac674dae-api_key_prompt.scn
 res://addons/godot_super-wakatime/counter.tscn::7f13ad35960e259f6de719f9785ce249::1792458119::res://.godot/exported/133200997/export-4af6c9115c1c285af5925fa1ce6a526e-counter.scn
-res://Dialogic/Styles/text_bubble_style.tres::4c13b24ebbba3eb015a3f469b3f0c04c::1792768691::res://.godot/exported/133200997/export-2d908a348e4a72b3a2011591b5974c22-text_bubble_style.res
-res://Scenes/Cookware/Pot.tscn::995d8c452fd95907e2b90ddf814635bf::1792458116::res://.godot/exported/133200997/export-a8211551f269be18eb05bed9c6987e6b-Pot.scn
-res://Scenes/Cookware/shelf.tscn::e2c57253662039e2141821529bcaa1ef::1792458116::res://.godot/exported/133200997/export-f7faefa7599dc3c575edba9bc3604a9c-shelf.scn
-res://Scenes/Customers/customer_base.tscn::eeb733ac78edfc8ca1721d390245beb4::1792679035::res://.godot/exported/133200997/export-9ead9110d087b82080eef0165b3e59a5-customer_base.scn
-res://Scenes/Foods/apple_ingredient.tscn::97fc478a77bfe85248d3a663d35d4b85::1792458116::res://.godot/exported/133200997/export-f54e149e13fcd41d9029a20710da2e6d-apple_ingredient.scn
-res://Scenes/Foods/bluebery_ingredient.tscn::63d1c23449912b29673a00710aa3b1ba::1792458116::res://.godot/exported/133200997/export-a82e30b6623f8615bc0984a89b6c5a2e-bluebery_ingredient.scn
+res://Dialogic/Styles/text_bubble_style.tres::4c13b24ebbba3eb015a3f469b3f0c04c::1795146260::res://.godot/exported/133200997/export-2d908a348e4a72b3a2011591b5974c22-text_bubble_style.res
+res://Scenes/Cookware/Pot.tscn::8a7b20b511d802ccc31afb30fd58b1ed::1794239609::res://.godot/exported/133200997/export-a8211551f269be18eb05bed9c6987e6b-Pot.scn
+res://Scenes/Cookware/shelf.tscn::d16c7434fb2648ba36eec6871116d741::1795017802::res://.godot/exported/133200997/export-f7faefa7599dc3c575edba9bc3604a9c-shelf.scn
+res://Scenes/Customers/customer_base.tscn::375a53ffc3e6044a19bfd013955d064e::1794929317::res://.godot/exported/133200997/export-9ead9110d087b82080eef0165b3e59a5-customer_base.scn
+res://Scenes/Foods/apple_ingredient.tscn::581d788f3302096921eaaa1c93a122d5::1793927582::res://.godot/exported/133200997/export-f54e149e13fcd41d9029a20710da2e6d-apple_ingredient.scn
+res://Scenes/Foods/bluebery_ingredient.tscn::8715efd42520bf0ef501c259b946a9fc::1793927671::res://.godot/exported/133200997/export-a82e30b6623f8615bc0984a89b6c5a2e-bluebery_ingredient.scn
 res://Scenes/Foods/carrot_ingredient.tscn::6adc98ff40748dc0817413928c90d194::1792458117::res://.godot/exported/133200997/export-43d88a50f77d35b0a482bffe85421e35-carrot_ingredient.scn
 res://Scenes/Foods/herbs_ingredient.tscn::fa4eb1086a828bb5c3fbfb273d41d405::1792458117::res://.godot/exported/133200997/export-c0c2d5303619d31bc163b9896bf682c6-herbs_ingredient.scn
 res://Scenes/Foods/milk_ingredient.tscn::e45744a9928bce707285cd62b4b4aed5::1792458117::res://.godot/exported/133200997/export-0cf59f342a8b73cc31cd40e599a435da-milk_ingredient.scn
 res://Scenes/Foods/tofu_ingredient.tscn::5f01337750638c037fcfcd7d801fe7c9::1792458117::res://.godot/exported/133200997/export-8b7fd7105184d8663448dce9b7df8acf-tofu_ingredient.scn
-res://Scenes/UIs/main_menu.tscn::36322df498958469ab1d0f40193540ff::1792458117::res://.godot/exported/133200997/export-d5ee2c8ebe22b349611a3ee5b6133e4f-main_menu.scn
+res://Scenes/UIs/main_menu.tscn::a931448e7decad7a378d02dff7ae2439::1795017802::res://.godot/exported/133200997/export-d5ee2c8ebe22b349611a3ee5b6133e4f-main_menu.scn
 res://Scenes/UIs/pause_menu.tscn::a6bebac4e36e2427f5ca892b74d0c44e::1792458117::res://.godot/exported/133200997/export-d0893d7abb610df66ac90f8276b8a518-pause_menu.scn
 res://Scenes/UIs/platform.tscn::150145b36279e7c8c23ff620859c9c39::1792458117::res://.godot/exported/133200997/export-155bbc6cdf6cde0c70947ece95197d9f-platform.scn
-res://Scenes/UIs/pop_up_recipe.tscn::3f9d2d55545e5c024a0d472a485f289a::1792458117::res://.godot/exported/133200997/export-5a3a7274ba4844d84b8f13f1a3dcf52d-pop_up_recipe.scn
-res://Scenes/UIs/recipes_menu.tscn::25df217aa4f68d9cb5711004db764f32::1792595612::res://.godot/exported/133200997/export-1dcf61933d9cb101504654d5526c13b3-recipes_menu.scn
-res://Scenes/game.tscn::ca296e33b959ab52e593ac3cef57a14a::1792679035::res://.godot/exported/133200997/export-d45e16ca8d170891778b9dcfa9c69e68-game.scn
+res://Scenes/UIs/pop_up_recipe.tscn::8bbf2370b01e14461b7dba399132d837::1795140561::res://.godot/exported/133200997/export-5a3a7274ba4844d84b8f13f1a3dcf52d-pop_up_recipe.scn
+res://Scenes/UIs/recipes_menu.tscn::8b0ea7eb7114bfbca06de899368764fa::1795146736::res://.godot/exported/133200997/export-1dcf61933d9cb101504654d5526c13b3-recipes_menu.scn
+res://Scenes/game.tscn::ade57130d5dc99d1a09b98790b84e3b9::1795147012::res://.godot/exported/133200997/export-d45e16ca8d170891778b9dcfa9c69e68-game.scn
 res://default_bus_layout.tres::cfee6a3c6c4ab47182d4a619328ba104::1792458119::res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res
-res://Scenes/front_counter.tscn::8a103557dc93842c10a5364aa53bb7d6::1792768691::res://.godot/exported/133200997/export-cb6258a30280b7626471e89f3bd24885-front_counter.scn
+res://Scenes/front_counter.tscn::191792627429b3a866e825e8480a202c::1795146661::res://.godot/exported/133200997/export-cb6258a30280b7626471e89f3bd24885-front_counter.scn
 res://Assets/Themes/recipes_menu_font.tres::3658061d53d9122db3a745c8ad40b26e::1792458116::res://.godot/exported/133200997/export-62e47718c3abcf50f0cccf5c17e62271-recipes_menu_font.res
 res://Dialogic/TextbubbleLayer/custom_textbubble_layer.tscn::683a981eb023ce09b5fd928719b26301::1792458116::res://.godot/exported/133200997/export-27430ce7af18f872a4c9b20720ad26b2-custom_textbubble_layer.scn
-res://Scenes/Cookware/window.tscn::13299d33d0abffc0ffdca05042fc7e7c::1792458116::res://.godot/exported/133200997/export-8233f110499b89628c9b6b8da3a0cc7d-window.scn
+res://Scenes/Cookware/window.tscn::34760ecb669def87442e53cc0465c8e1::1795145039::res://.godot/exported/133200997/export-8233f110499b89628c9b6b8da3a0cc7d-window.scn
 res://Scenes/Foods/bloody_ingredient.tscn::4e893719d937d8bde224a4ccfcd538c0::1792458116::res://.godot/exported/133200997/export-bea08871b3c997bf1e63ab4882c63812-bloody_ingredient.scn
 res://Scenes/Foods/chicken_ingredient.tscn::e5ab6e6f0610c9fe273d99beeb44b29c::1792458117::res://.godot/exported/133200997/export-5866c6ce106cb4bc9b32f3a4dfce590c-chicken_ingredient.scn
 res://Scenes/Foods/dog_treat_ingredient.tscn::c8283765171eeb978cc3e9b078b2e2d3::1792459193::res://.godot/exported/133200997/export-37827f57bc7d9e63795c481e02032520-dog_treat_ingredient.scn
@@ -141,10 +141,41 @@ res://Scenes/Foods/eye_ingredient.tscn::187846f2b9f421c2602cf63a02807387::179245
 res://Scenes/Foods/strawberry_ingredient.tscn::b0973af787ef6e8b102be79c0fd294a8::1792458117::res://.godot/exported/133200997/export-655c7be44808c50040a868e9ee62879b-strawberry_ingredient.scn
 res://Scenes/UIs/scene_transition.tscn::2ebbbd94a46d79ebfbc75d339c8e9cec::1792458117::res://.godot/exported/133200997/export-d7c0de6f62f6dae80f0014fdb76ca959-scene_transition.scn
 res://Scenes/UIs/settings.tscn::33fe88833b3f6706832255b06861402d::1792458117::res://.godot/exported/133200997/export-aea5bf5f55d7f6d1bbe6187d7785f13f-settings.scn
-res://Scenes/scene_manager.tscn::7a3e50832f303778fa2d1649ac4daf53::1792458117::res://.godot/exported/133200997/export-a2e5bd5653c6cd1be3764594a7c5e679-scene_manager.scn
+res://Scenes/scene_manager.tscn::7a3e50832f303778fa2d1649ac4daf53::1794234879::res://.godot/exported/133200997/export-a2e5bd5653c6cd1be3764594a7c5e679-scene_manager.scn
 res://Scenes/start.tscn::e30f86c63f8ab35ce1f743017bdc4964::1792458117::res://.godot/exported/133200997/export-99a5d1e8133907b80507e3bef01afe5d-start.scn
 res://Scenes/Foods/fish_ingredient.tscn::8c79db1803acee1593477f87ed973a89::1792507865::res://.godot/exported/133200997/export-ef8bdcc2fdb4900d4b1e1601eb03c844-fish_ingredient.scn
-res://Scenes/Foods/flour_ingredient.tscn::29a05fdc50e10c7df3cffbfb527fcff4::1792422659::res://.godot/exported/133200997/export-b66a6197d25ce5ddb4753aff36083e69-flour_ingredient.scn
-res://Scenes/Foods/strawberry_milkshake.tscn::1a1597e531ce99acfffb5e5dedae4514::1792768614::res://.godot/exported/133200997/export-787a3439350a54f46e962124d3214acc-strawberry_milkshake.scn
+res://Scenes/Foods/flour_ingredient.tscn::de2e127d82434a110c96eb1ab7e46a99::1794318592::res://.godot/exported/133200997/export-b66a6197d25ce5ddb4753aff36083e69-flour_ingredient.scn
 res://Scenes/UIs/market_menu.tscn::34eed3e83034f048a55d62874f34f6c4::1792594525::res://.godot/exported/133200997/export-fa16b8e99260dc0e8dab45297670fd1e-market_menu.scn
-res://Scenes/UIs/money_amount.tscn::e529d010f25e20ebddbdbea2d8e4c018::1792528181::res://.godot/exported/133200997/export-a2af6e3aba77c10c33cfb71c92f78386-money_amount.scn
+res://Scenes/Completed Recipes/apple_cake.tscn::ff96daa118dee4e8ae5cf850bb067f00::1795140222::res://.godot/exported/133200997/export-5c8e209312e1944ea62d8d084ff3d312-apple_cake.scn
+res://Scenes/Completed Recipes/apple_milkshake.tscn::41fce2a98ca2c1abf96d37060554a0b4::1795017426::res://.godot/exported/133200997/export-52b0d285db0895f03805440236d36bde-apple_milkshake.scn
+res://Scenes/Completed Recipes/basic_cake.tscn::68a4284a62c53ad6da8d03218351f5b6::1795140250::res://.godot/exported/133200997/export-13c5334febc28c939292c2f43cc5988b-basic_cake.scn
+res://Scenes/Completed Recipes/basic_milkshake.tscn::8e4c3cdad61b232d55c07c936e2457e3::1795102754::res://.godot/exported/133200997/export-098963d9b5b74c0f1d4f61157b370241-basic_milkshake.scn
+res://Scenes/Completed Recipes/biscuit_cake.tscn::e50ef530a47544f444b6d0a12f6195ee::1795140268::res://.godot/exported/133200997/export-ad808da09b52cbdd12da469d9a7f85d7-biscuit_cake.scn
+res://Scenes/Completed Recipes/biscuit_milkshake.tscn::d9b5a9c0ef9f802617faa14fbeb84457::1793911584::res://.godot/exported/133200997/export-5bef7f22a7a2e2c2ab1f1002171bbf49-biscuit_milkshake.scn
+res://Scenes/Completed Recipes/bloodshot_eye_milkshake.tscn::1d54ce9cbbdfd35b4ab1d12600a8989a::1793911584::res://.godot/exported/133200997/export-f3a82f05f0ca0fe52c07ff846c6384ae-bloodshot_eye_milkshake.scn
+res://Scenes/Completed Recipes/bloody_cake.tscn::0e6e9ed599c5d319187c857672f3633f::1795140287::res://.godot/exported/133200997/export-bebaacbc245c7a2c6cb8e1d4e3c78cba-bloody_cake.scn
+res://Scenes/Completed Recipes/blueberry_cake.tscn::ecd2ca8d87afa23249755e3f46e30544::1795140307::res://.godot/exported/133200997/export-5587df8a753b4d96ff1480ddbcb4940f-blueberry_cake.scn
+res://Scenes/Completed Recipes/blueberry_milkshake.tscn::e89d7ae0d6ebed285b60fdd8c8745000::1793911584::res://.godot/exported/133200997/export-c08b7f88eca82daebbee713194236987-blueberry_milkshake.scn
+res://Scenes/Completed Recipes/carrot_cake.tscn::48aed1456538c2bf1809a30c97dc278b::1795140325::res://.godot/exported/133200997/export-663bdeb410c6a1060d4bd20ee78fd355-carrot_cake.scn
+res://Scenes/Completed Recipes/crystal_cake.tscn::71b10d4bc3ba8044f7750a1114620cfa::1795140344::res://.godot/exported/133200997/export-9b6e364b2554824a9a84975af4a1cfc6-crystal_cake.scn
+res://Scenes/Completed Recipes/crystal_milkshake.tscn::994ce32e02f249eb0cf989369116727b::1795103650::res://.godot/exported/133200997/export-d030ce51a5bea902daf7b115bf1d7df0-crystal_milkshake.scn
+res://Scenes/Completed Recipes/fish_cake.tscn::add6af385ee62accaf4c3b71be45644d::1795140361::res://.godot/exported/133200997/export-7dc9b795b6dfd03e9346393c4b24eadc-fish_cake.scn
+res://Scenes/Completed Recipes/fish_milkshake.tscn::03dbc6f4c067e7f22121e7b07f71181e::1793911584::res://.godot/exported/133200997/export-a94bcece145a75fd2ecf9d3a8ddbb793-fish_milkshake.scn
+res://Scenes/Completed Recipes/strawberry_cake.tscn::c1da7a42644fc31b3ae504e794059baf::1795140378::res://.godot/exported/133200997/export-0309d45c729d5df259b413cf8301c153-strawberry_cake.scn
+res://Scenes/Completed Recipes/strawberry_milkshake.tscn::280d6e4b0ed41034ad6bd446ca0b7b4a::1793911584::res://.godot/exported/133200997/export-39def0c652e6633129076c1a7c9bc633-strawberry_milkshake.scn
+res://Scenes/Cookware/apple_bowl.tscn::acb337b2b1122daf891e3be6070cee79::1795102172::res://.godot/exported/133200997/export-cdb0fdda9b6963e3c36a7cbd3a12c932-apple_bowl.scn
+res://Scenes/Cookware/blueberry_container.tscn::079a3d7583d3742b3ba33b316ec45b37::1795102172::res://.godot/exported/133200997/export-31c58358223e43f18279d0f1c26f6ab6-blueberry_container.scn
+res://Scenes/Cookware/carrot_bowl.tscn::c9928080c216795d583e2a06511dd3e7::1795104575::res://.godot/exported/133200997/export-5ae3f7e4996044643ae9248429592253-carrot_bowl.scn
+res://Scenes/Cookware/crystal_bowl.tscn::efce67a33ad71d5dea9e4990f7453717::1795146088::res://.godot/exported/133200997/export-9de5419c2022ba1689960a20d5da2100-crystal_bowl.scn
+res://Scenes/Cookware/dogbowl.tscn::0161cc5e0f8ffbdff70dfeac4a1b998f::1795102172::res://.godot/exported/133200997/export-fa423bfa12587dcb5ea47509ca7eb662-dogbowl.scn
+res://Scenes/Cookware/fridge.tscn::c1ba70beb40a36de8cfe8c85706308b4::1795147012::res://.godot/exported/133200997/export-693061ced4e59d4baa7c27e28a9d494c-fridge.scn
+res://Scenes/Cookware/strawberry_container.tscn::9d6474876b89811b35d36277503ef375::1795102172::res://.godot/exported/133200997/export-354ea437f463e6014f4efa55bf66d2e6-strawberry_container.scn
+res://Scenes/Cookware/trash_can.tscn::b6f04f133179da3aa62838e15d1e5a59::1795099792::res://.godot/exported/133200997/export-8bb314627b211952539da40640933a6d-trash_can.scn
+res://Scenes/Customers/kitsune.tscn::b37f89a64fc5f56c3f910e9d7038bd95::1794320363::res://.godot/exported/133200997/export-69a78435d4f5f44560123031f9584758-kitsune.scn
+res://Scenes/Foods/crystal_ingredient.tscn::7905dd58622fab29fbf64c14d31a4118::1795146302::res://.godot/exported/133200997/export-a7338e8d26d2db48af91883ca9a964ef-crystal_ingredient.scn
+res://Scenes/Foods/egg_ingredient.tscn::6bb11278d5d379f8e7200b32a1d45ff5::1794319248::res://.godot/exported/133200997/export-ce24855a5d07d2d99eac244ebd58153e-egg_ingredient.scn
+res://Scenes/Foods/flour_spoon.tscn::1e0f702422213375883504989a6a3d94::1794318662::res://.godot/exported/133200997/export-eb8f937fffb8836eb34820fe23feca93-flour_spoon.scn
+res://Scenes/UIs/day_and_night_panel.tscn::8f78b3aa00a135be20286ea233b1faae::1794320363::res://.godot/exported/133200997/export-ca9bd52cb6cf5bed22ffb65c073b371b-day_and_night_panel.scn
+res://Scenes/UIs/rage_meter.tscn::8894424d65c0d350d4c8c9afa444d11a::1795145156::res://.godot/exported/133200997/export-2f65504c7bd89d7d9938c459b40eb6d2-rage_meter.scn
+res://Scenes/UIs/save_stats.tscn::14d6aa1870ac65227e8d43a1c1b454c1::1794229563::res://.godot/exported/133200997/export-018356c0eab97458710651703370e92d-save_stats.scn
+res://Scenes/Day_passed.tscn::5afc9bb298758fc0c29c7419c7f9fcdc::1795017860::res://.godot/exported/133200997/export-21fdea0b678526fd3f187be1fa8c52f7-Day_passed.scn

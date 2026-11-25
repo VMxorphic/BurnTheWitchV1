@@ -31,6 +31,7 @@ SceneManager="*uid://bbo5snr5d0hla"
 MoneyAmount="*uid://3qeqw4qs2ekt"
 DayNightCycleManager="*uid://b267korhpbnhi"
 SavingSystem="*uid://dyhir8pf4dtnk"
+GlobalMarket="*uid://6gq8nyhf3txc"
 
 [dialogic]
 

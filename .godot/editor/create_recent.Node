@@ -1,9 +1,10 @@
+ProgressBar
+Button
+Label
 CollisionShape2D
 Sprite2D
 MarginContainer
 VBoxContainer
-Label
-Button
 StaticBody2D
 RigidBody2D
 Area2D
