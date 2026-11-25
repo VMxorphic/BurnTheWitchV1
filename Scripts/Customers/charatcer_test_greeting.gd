@@ -15,8 +15,9 @@ var order_range = randi_range(1,2)
 const grey_neutral = preload("res://Assets/Customers/Grey/grey_neutral.png")
 const kitsune_neutral = preload("res://Assets/Customers/Kitsune/kitsune_neutral.png")
 const cerberus_neutral = preload("res://Assets/Customers/Cerberus/Cerberus.png")
+const opossum_neutral = preload("res://Assets/Customers/opossum/Opossum_neutral.png")
 
-const customer_sprites: Array = [grey_neutral, kitsune_neutral, cerberus_neutral]
+const customer_sprites: Array = [grey_neutral, kitsune_neutral, cerberus_neutral, opossum_neutral]
 var current_customer = null
 
 #var week = int((DayNightCycleManager.time/ DayNightCycleManager.GAME_MINUTE_DURATION)/DayNightCycleManager.MINUTES_PER_DAY)
@@ -25,6 +26,8 @@ var total_customers_served = 0
 
 func _ready() -> void:
 	_spawn_customer()
+	sprite_2d.scale *= 1.2
+
 
 
 func _spawn_customer() -> void:
