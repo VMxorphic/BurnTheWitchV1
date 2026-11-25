@@ -26,6 +26,8 @@ var total_customers_served = 0
 
 func _ready() -> void:
 	_spawn_customer()
+	sprite_2d.scale *= 1.2
+
 
 
 func _spawn_customer() -> void:

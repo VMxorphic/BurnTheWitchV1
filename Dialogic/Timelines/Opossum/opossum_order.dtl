@@ -1,2 +1,2 @@
-Characters/character_test: Hi. Could I get a{" &  ".join(Global.order)}.
+Characters/character_test: Hi. Could I get a {" &  ".join(Global.order)}.
 Characters/character_test: Thank you
