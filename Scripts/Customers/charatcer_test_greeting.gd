@@ -26,8 +26,6 @@ var total_customers_served = 0
 
 func _ready() -> void:
 	_spawn_customer()
-	sprite_2d.scale *= 1.2
-
 
 
 func _spawn_customer() -> void:
@@ -38,6 +36,17 @@ func _spawn_customer() -> void:
 		sprite_2d.texture = customer_sprites.pick_random()
 		current_customer = sprite_2d.texture.resource_path.get_file().trim_suffix(".png").trim_suffix("_neutral")
 		#print("the current customer is ", current_customer)
+		Global.current_customer = current_customer
+		
+		#change hitbox size depending on customer
+		if Global.current_customer == "Opossum":
+			collision_shape_2d.scale = Vector2(1,1)
+			sprite_2d.scale = Vector2(0.1,0.1)
+		else:
+			collision_shape_2d.scale = Vector2(1,1)
+			sprite_2d.scale = Vector2(0.07,0.07)
+			
+		
 		
 		if Global.line_spot_1_occupied == false:
 			#gets a random order, 1 to x items
@@ -88,7 +97,7 @@ func _out_tween():
 	await in_tween.finished
 	
 	Global.line_spot_1_occupied = false
-	customer_base.position = Vector2(0,0)
+	customer_base.position = Vector2(86,0)
 	_spawn_customer()
 
 

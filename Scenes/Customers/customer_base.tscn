@@ -25,7 +25,7 @@ scale = Vector2(18.292671, 18.292671)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="customer/Sprite2D/Area2D" unique_id=1830168289]
 unique_name_in_owner = true
-position = Vector2(0.34375, 39)
+position = Vector2(1.5497208e-06, 39.208797)
 shape = SubResource("RectangleShape2D_u15vf")
 
 [node name="LineSpot1" type="Marker2D" parent="customer" unique_id=644944576]

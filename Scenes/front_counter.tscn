@@ -23,7 +23,7 @@ position = Vector2(585, 324)
 texture = ExtResource("4_41tiw")
 
 [node name="CustomerBase" parent="." unique_id=1801528613 instance=ExtResource("4_f001j")]
-position = Vector2(1, 2)
+position = Vector2(86, 2)
 
 [node name="counter" type="Sprite2D" parent="." unique_id=656465277]
 position = Vector2(578, 324)

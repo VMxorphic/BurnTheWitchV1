@@ -57,8 +57,7 @@ const customer_timelines: Dictionary={
 
 }
 
-
-
+var current_customer = null
 
 #Keep track of if a customer is waiting for food or not
 var line_spot_1_occupied = false
